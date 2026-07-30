@@ -1,0 +1,676 @@
+[  396477ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1205660ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1211623ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1218515ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/favicon.ico:0
+[ 1224146ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1244537ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1249136ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1252936ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1265520ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1266365ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1270449ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1271035ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1271699ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1289345ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/@astrojs_react_client__js.js?v=91371950:20103
+[ 1303959ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4321/@vite/client:1695
+[ 1303961ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[ 1304964ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[ 1305966ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[ 1306969ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[ 1307972ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[ 1308976ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[ 1309979ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[ 1310982ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[ 1312004ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1313014ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1314019ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1315024ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1316036ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1317042ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1318049ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1319056ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1320065ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1321073ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1322082ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1323089ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1324098ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1325103ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1326110ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1327118ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1328122ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1329130ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1330136ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1331142ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1332149ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1333156ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1334164ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1335168ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1336178ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1337185ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1338193ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1339199ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1340205ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1341210ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1342215ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1343222ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1344229ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1345237ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1346243ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1347250ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1348258ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1349264ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1350270ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1351276ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1352280ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1353286ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1354295ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1355302ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1356310ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1357316ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1358322ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1359330ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1360340ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1361348ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1362354ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1363361ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1364368ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1365376ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1366382ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1367392ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1368401ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1369407ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1370414ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1371422ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1372430ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1373438ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1374447ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1375458ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1376468ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1377476ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1378485ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1379495ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1380503ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1381512ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1382520ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1383528ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1384539ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1385549ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1386558ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1387568ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1388579ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1389590ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1390601ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1391615ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1392629ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1393638ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1394653ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1395666ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1396682ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1397697ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1398711ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1399725ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1400734ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1401744ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1402756ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1403772ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1404789ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1405814ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1406836ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1407858ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1408870ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1409888ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1410906ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1411929ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1412944ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1413967ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1414984ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1415996ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1417016ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1418047ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1419076ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1420116ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1421157ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1422180ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1423210ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1424232ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1425272ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1426290ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1427305ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1428345ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1429362ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1430377ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1431451ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1432482ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1433514ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1434555ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1435586ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1436609ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1437642ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1438706ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1439764ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1440800ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1441857ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1442881ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 404 @ http://localhost:4321/@vite/client:1766
+[ 1443933ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 404 @ http://localhost:4321/@vite/client:1766
+[ 1444990ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 404 @ http://localhost:4321/@vite/client:1766
+[ 1445999ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1447009ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1448014ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1449025ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1450032ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1451040ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1452051ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1453074ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1454095ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1455161ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1456268ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1457356ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1458928ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1460792ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1462325ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1467572ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1470234ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error during WebSocket handshake: Unexpected response code: 200 @ http://localhost:4321/@vite/client:1766
+[ 1480007ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[ 1481126ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481137ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481154ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481180ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481187ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481204ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481220ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481237ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481254ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481270ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481290ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481304ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481320ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481336ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481371ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481886ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481903ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481920ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481937ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481954ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481971ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1481986ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482006ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482019ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482039ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482658ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482668ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482685ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482703ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482719ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482736ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482752ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482769ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482786ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482803ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482819ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482836ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482852ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482869ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482886ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482904ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482919ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482937ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482952ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482969ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1482985ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483006ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483018ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483035ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483052ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483069ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483754ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483768ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483786ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483802ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483818ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483836ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483851ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483869ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483885ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483902ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483918ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483934ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483952ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483968ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1483985ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484001ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484018ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484035ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484052ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484068ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484435ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484450ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484467ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484484ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484503ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484517ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484533ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484550ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484568ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484584ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484600ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484616ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484634ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484651ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484667ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484684ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484700ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484717ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484733ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484750ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484767ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484784ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484800ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484817ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484836ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484850ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484868ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484883ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484899ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484933ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484950ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1484983ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485000ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485017ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485033ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485050ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485067ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485083ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485100ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485117ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485134ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485150ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485167ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485183ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485201ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485217ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485233ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485250ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485267ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485283ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485300ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485317ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485333ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485350ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485367ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485383ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485400ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485417ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485433ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485450ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485466ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485482ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485499ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485516ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485532ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485550ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485567ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485583ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485599ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485616ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485633ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485649ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485667ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485683ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485699ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485716ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485732ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485750ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485766ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485783ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485799ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485816ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485833ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485850ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485866ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485883ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485900ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485916ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485933ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485950ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485966ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1485983ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486001ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486018ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486033ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486049ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486067ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486083ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486099ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486148ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486166ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486182ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486199ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486216ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486232ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486249ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486265ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486282ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486299ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486316ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486332ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486355ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486366ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486382ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486399ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486416ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486433ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486449ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486465ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486482ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486499ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486515ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486532ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486549ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486565ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486582ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486599ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486615ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486632ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486649ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486666ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486700ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486733ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486748ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486766ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486782ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486799ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486815ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1486832ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487253ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487265ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487282ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487298ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487315ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487332ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487348ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487365ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487381ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487398ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487415ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487431ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487448ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487465ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487482ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487498ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487515ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487530ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487548ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487565ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487582ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487598ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1487614ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:36:20
+[ 1492420ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[ 1548717ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548727ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548744ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548761ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548777ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548794ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548810ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548827ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548844ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548861ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548877ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548894ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548960ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548977ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1548994ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1549011ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1549027ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:34:20
+[ 1549044ms] TypeError: Cannot read properties of null (reading 'style')
+    at https://sulfablaw.com/wp-content/themes/immigration-custom/assets/js/main.js?ver=1.2:36:20

@@ -1,0 +1,147 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - link "Skip to content" [ref=f3e3] [cursor=pointer]:
+      - /url: "#primary"
+    - banner [ref=f3e4]:
+      - generic [ref=f3e6]:
+        - link "Sulfab Law Office Sulfab Law San Francisco" [ref=f3e8] [cursor=pointer]:
+          - /url: https://sulfablaw.com/
+          - img "Sulfab Law Office" [ref=f3e9]
+          - generic [ref=f3e10]:
+            - generic [ref=f3e11]: Sulfab Law
+            - generic [ref=f3e12]: San Francisco
+        - navigation [ref=f3e13]:
+          - button "Practice Areas" [ref=f3e15] [cursor=pointer]
+          - link "Our Team" [ref=f3e18] [cursor=pointer]:
+            - /url: https://sulfablaw.com/meet-our-team/
+          - link "Insights" [ref=f3e19] [cursor=pointer]:
+            - /url: https://sulfablaw.com/blog/
+          - link "Contact" [ref=f3e20] [cursor=pointer]:
+            - /url: https://sulfablaw.com/contact/
+          - link "(415) 360-5266" [ref=f3e21] [cursor=pointer]:
+            - /url: tel:+14153605266
+          - link "Case Review" [ref=f3e24] [cursor=pointer]:
+            - /url: https://sulfablaw.com/#contact
+    - main [ref=f3e25]:
+      - generic [ref=f3e29]:
+        - generic [ref=f3e31]: Insights & updates
+        - heading "Insights" [level=1] [ref=f3e32]
+        - paragraph [ref=f3e33]: News and perspectives on immigration, intellectual property, injury law, and workers’ compensation from Sulfab Law Office.
+      - generic [ref=f3e36]:
+        - generic [ref=f3e37]:
+          - list [ref=f3e38]:
+            - listitem [ref=f3e39]:
+              - article [ref=f3e40]:
+                - link [ref=f3e41] [cursor=pointer]:
+                  - /url: https://sulfablaw.com/2026/05/11/what-happens-during-a-uscis-interview/
+                  - img "What Happens During a USCIS Interview?" [ref=f3e42]
+                - generic [ref=f3e43]:
+                  - time [ref=f3e44]: May 11, 2026
+                  - heading [level=2] [ref=f3e45]:
+                    - link "What Happens During a USCIS Interview?" [ref=f3e46] [cursor=pointer]:
+                      - /url: https://sulfablaw.com/2026/05/11/what-happens-during-a-uscis-interview/
+                  - paragraph [ref=f3e48]: A USCIS interview is an important step in many immigration processes, including green card applications, naturalization, family-based petitions, and adjustment of status cases. For many applicants, the interview can feel stressful because the outcome may affect their future in the United States. Understanding what happens during a USCIS interview can help you feel more confident […]
+                  - link "Read article" [ref=f3e49] [cursor=pointer]:
+                    - /url: https://sulfablaw.com/2026/05/11/what-happens-during-a-uscis-interview/
+            - listitem [ref=f3e52]:
+              - article [ref=f3e53]:
+                - link [ref=f3e54] [cursor=pointer]:
+                  - /url: https://sulfablaw.com/2026/05/04/what-should-you-do-immediately-after-a-car-accident/
+                  - img "What Should You Do Immediately After a Car Accident?" [ref=f3e55]
+                - generic [ref=f3e56]:
+                  - time [ref=f3e57]: May 4, 2026
+                  - heading [level=2] [ref=f3e58]:
+                    - link "What Should You Do Immediately After a Car Accident?" [ref=f3e59] [cursor=pointer]:
+                      - /url: https://sulfablaw.com/2026/05/04/what-should-you-do-immediately-after-a-car-accident/
+                  - paragraph [ref=f3e61]: A car accident can happen unexpectedly and leave drivers feeling stressed, confused, and overwhelmed. Whether the accident is minor or severe, the actions you take immediately afterward can significantly affect your health, safety, insurance claim, and legal rights. Knowing what to do after a car accident can help protect you from unnecessary complications and improve […]
+                  - link "Read article" [ref=f3e62] [cursor=pointer]:
+                    - /url: https://sulfablaw.com/2026/05/04/what-should-you-do-immediately-after-a-car-accident/
+            - listitem [ref=f3e65]:
+              - article [ref=f3e66]:
+                - link [ref=f3e67] [cursor=pointer]:
+                  - /url: https://sulfablaw.com/2026/04/27/digital-evidence-in-personal-injury-cases-what-you-need-to-know/
+                  - 'img "Digital Evidence in Personal Injury Cases: What You Need to Know" [ref=f3e68]'
+                - generic [ref=f3e69]:
+                  - time [ref=f3e70]: April 27, 2026
+                  - heading [level=2] [ref=f3e71]:
+                    - 'link "Digital Evidence in Personal Injury Cases: What You Need to Know" [ref=f3e72] [cursor=pointer]':
+                      - /url: https://sulfablaw.com/2026/04/27/digital-evidence-in-personal-injury-cases-what-you-need-to-know/
+                  - paragraph [ref=f3e74]: In the contemporary world, there is a lot more to a personal injury case than just testimony from witnesses and documentation from the hospital. In modern times, digital evidence has gained immense importance in establishing liability and impact on the life of the injured party. This applies not only to motor vehicle accidents but all […]
+                  - link "Read article" [ref=f3e75] [cursor=pointer]:
+                    - /url: https://sulfablaw.com/2026/04/27/digital-evidence-in-personal-injury-cases-what-you-need-to-know/
+          - navigation "Posts pagination" [ref=f3e79]:
+            - heading "Posts pagination" [level=2] [ref=f3e80]
+            - generic [ref=f3e81]:
+              - link "←" [ref=f3e82] [cursor=pointer]:
+                - /url: https://sulfablaw.com/blog/
+              - link "1" [ref=f3e83] [cursor=pointer]:
+                - /url: https://sulfablaw.com/blog/
+              - generic [ref=f3e84]: "2"
+        - complementary [ref=f3e85]:
+          - generic [ref=f3e86]:
+            - paragraph [ref=f3e87]: Important links
+            - generic [ref=f3e88]:
+              - link "ASAP (English) Visit" [ref=f3e89] [cursor=pointer]:
+                - /url: https://asaptogether.org/en/
+                - generic [ref=f3e90]: ASAP (English)
+                - generic [ref=f3e91]: Visit
+              - link "ASAP (Español) Visitar" [ref=f3e92] [cursor=pointer]:
+                - /url: https://asaptogether.org/es/
+                - generic [ref=f3e93]: ASAP (Español)
+                - generic [ref=f3e94]: Visitar
+              - link "Newsroom | USCIS Visit" [ref=f3e95] [cursor=pointer]:
+                - /url: https://www.uscis.gov/newsroom
+                - generic [ref=f3e96]: Newsroom | USCIS
+                - generic [ref=f3e97]: Visit
+    - contentinfo [ref=f3e98]:
+      - generic [ref=f3e100]:
+        - generic [ref=f3e101]:
+          - link [ref=f3e102] [cursor=pointer]:
+            - /url: https://sulfablaw.com/
+            - img "Sulfab Law Office Logo" [ref=f3e103]
+          - paragraph [ref=f3e104]: Providing sophisticated legal counsel across immigration, intellectual property, and personal injury. Known for transparency and high-competency advocacy.
+        - generic [ref=f3e105]:
+          - heading "Practice Areas" [level=4] [ref=f3e106]
+          - list [ref=f3e107]:
+            - listitem [ref=f3e108]:
+              - link "Immigration" [ref=f3e109] [cursor=pointer]:
+                - /url: https://sulfablaw.com/immigration/
+            - listitem [ref=f3e110]:
+              - link "Intellectual Property" [ref=f3e111] [cursor=pointer]:
+                - /url: https://sulfablaw.com/intellectual-property/
+            - listitem [ref=f3e112]:
+              - link "Personal Injury" [ref=f3e113] [cursor=pointer]:
+                - /url: https://sulfablaw.com/personal-injury/
+        - generic [ref=f3e114]:
+          - heading "The Firm" [level=4] [ref=f3e115]
+          - list [ref=f3e116]:
+            - listitem [ref=f3e117]:
+              - link "Our Team" [ref=f3e118] [cursor=pointer]:
+                - /url: https://sulfablaw.com/meet-our-team/
+            - listitem [ref=f3e119]:
+              - link "Insights" [ref=f3e120] [cursor=pointer]:
+                - /url: https://sulfablaw.com/blog/
+            - listitem [ref=f3e121]:
+              - link "Case Intake" [ref=f3e122] [cursor=pointer]:
+                - /url: https://sulfablaw.com/#contact
+            - listitem [ref=f3e123]:
+              - link "SF Office" [ref=f3e124] [cursor=pointer]:
+                - /url: https://sulfablaw.com/contact/
+        - generic [ref=f3e125]:
+          - heading "Headquarters" [level=4] [ref=f3e126]
+          - generic [ref=f3e127]:
+            - paragraph [ref=f3e128]: 369 Pine St, Suite 600 San Francisco, CA 94104
+            - generic [ref=f3e129]:
+              - paragraph [ref=f3e130]:
+                - link "(415) 360-5266" [ref=f3e133] [cursor=pointer]:
+                  - /url: tel:+14153605266
+              - paragraph [ref=f3e134]:
+                - link "sulfab@sulfablaw.com" [ref=f3e138] [cursor=pointer]:
+                  - /url: mailto:sulfab@sulfablaw.com
+              - paragraph [ref=f3e139]:
+                - generic [ref=f3e143]: "Mon - Fri: 9:00 AM - 5:00 PM"
+      - generic [ref=f3e145]:
+        - generic [ref=f3e146]: © 2026 Sulfab Law Office. All Rights Reserved.
+        - generic [ref=f3e148]: "Disclaimer: The information provided on this website is for general informational purposes only and does not constitute legal advice. Accessing or using this website does not create an attorney-client relationship between you and Sulfab Law Office. Prior results do not guarantee a similar outcome."
+  - button [ref=f3e149] [cursor=pointer]:
+    - img "Re-consent" [ref=f3e150]

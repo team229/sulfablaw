@@ -1,0 +1,143 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/images/sulfab-law-logo.jpg';
+
+const currentPath = Astro.url.pathname;
+const isHome = currentPath === '/' || currentPath === '';
+const practiceSubpages: { title: string; url: string }[] = [
+  { title: 'Car Accidents', url: '/car-accidents-lawyer-san-francisco/' },
+  { title: 'Motorcycle Accidents', url: '/motorcycle-accidents-lawyer-san-francisco/' },
+  { title: 'Truck Accidents', url: '/truck-accidents-lawyer-san-francisco/' },
+  { title: 'Pedestrian Injuries', url: '/pedestrian-injuries-lawyer-san-francisco/' },
+  { title: 'Slip and Fall', url: '/slip-and-fall-lawyer-san-francisco/' },
+  { title: 'Wrongful Death', url: '/wrongful-death-lawyer-san-francisco/' },
+];
+---
+
+<header class="fixed top-0 left-0 w-full z-[1000] bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="flex justify-between items-center h-24">
+      <a href="/" class="flex items-center gap-4 shrink-0">
+        <Image src={logo} alt="Sulfab Law Office" class="h-14 w-auto" />
+        <div class="hidden lg:block border-l border-slate-200 pl-4">
+          <span class="block text-sm font-black uppercase tracking-[0.3em] text-onyx leading-none">Sulfab Law</span>
+          <span class="block text-[11px] uppercase tracking-[0.2em] text-gold font-bold mt-1.5">San Francisco</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center space-x-10">
+        <div class="relative group">
+          <button type="button" class="nav-link nav-link-hover flex items-center gap-1.5 text-sm font-semibold uppercase tracking-wider text-onyx hover:text-gold transition-colors">
+            Practice Areas
+            <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </button>
+          <div class="absolute top-full left-1/2 -translate-x-1/2 pt-4 invisible opacity-0 translate-y-2 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+            <div class="bg-white rounded-xl shadow-2xl border border-slate-100 p-6 w-[600px]">
+              <div class="mb-4 pb-4 border-b border-slate-100">
+                <p class="text-sm font-bold uppercase tracking-wider text-onyx">Practice Areas</p>
+                <p class="text-xs text-slate-500 mt-1">Focused legal representation across immigration, intellectual property, and personal injury.</p>
+              </div>
+              <div class="grid grid-cols-1 gap-3">
+                <a href="/immigration-lawyer-san-francisco/" class="block p-3 rounded-lg hover:bg-slate-50 transition-colors">
+                  <span class="text-sm font-bold text-onyx">Immigration</span>
+                  <p class="text-xs text-slate-500 mt-0.5">Strategic representation in asylum, removal defense, federal litigation, family petitions, and investor visas. We handle complex cases nationwide, including federal court matters.</p>
+                </a>
+                <a href="/intellectual-property-lawyer-san-francisco/" class="block p-3 rounded-lg hover:bg-slate-50 transition-colors">
+                  <span class="text-sm font-bold text-onyx">Intellectual Property</span>
+                  <p class="text-xs text-slate-500 mt-0.5">Protecting your ideas, brand, and business through trademarks, licensing, and IP strategy. We help you secure and enforce what you build.</p>
+                </a>
+                <div class="p-3 rounded-lg hover:bg-slate-50 transition-colors">
+                  <a href="/personal-injury-lawyer-san-francisco/" class="block">
+                    <span class="text-sm font-bold text-onyx">Personal Injury &rarr;</span>
+                    <p class="text-xs text-slate-500 mt-0.5">Relentless advocacy for those injured by negligence. We pursue full compensation for medical expenses, lost income, and long term harm.</p>
+                  </a>
+                  <div class="border-t border-slate-100 my-2"></div>
+                  <div class="grid grid-cols-2 gap-x-4 gap-y-1.5">
+                    {practiceSubpages.map((p) => (
+                      <a href={p.url} class="text-xs text-slate-600 hover:text-onyx transition-colors">{p.title}</a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="/meet-our-team/" class="nav-link nav-link-hover text-sm font-semibold uppercase tracking-wider text-onyx hover:text-gold transition-colors">Our Team</a>
+        <a href="/blog/" class="nav-link nav-link-hover text-sm font-semibold uppercase tracking-wider text-onyx hover:text-gold transition-colors">Insights</a>
+        <a href="/contact/" class="nav-link nav-link-hover text-sm font-semibold uppercase tracking-wider text-onyx hover:text-gold transition-colors">Contact</a>
+
+        <a href="tel:+14153605266" class="flex items-center gap-2 text-sm font-bold text-onyx border-2 border-onyx rounded-lg px-5 py-2 hover:bg-onyx hover:text-white transition-colors">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          (415) 360-5266
+        </a>
+        <a href="/#contact" class="text-sm font-bold text-white bg-dark rounded-lg px-5 py-2.5 hover:bg-onyx transition-colors">Case Review</a>
+      </nav>
+
+      <button type="button" id="mobile-menu-toggle" class="md:hidden p-2 text-onyx hover:text-gold transition-colors" aria-label="Toggle menu">
+        <i data-lucide="menu" id="menu-icon" class="w-6 h-6"></i>
+        <i data-lucide="x" id="close-icon" class="w-6 h-6 hidden"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-nav-menu" class="md:hidden absolute top-full left-0 w-full bg-white border-b border-slate-100 shadow-xl js-menu-hidden opacity-0 -translate-y-4 transition-all duration-300 ease-out">
+    <div class="px-6 py-6 space-y-4">
+      <span class="block text-xs font-bold uppercase tracking-wider text-gold">Practice Areas</span>
+      <a href="/immigration-lawyer-san-francisco/" class="block text-sm font-semibold text-onyx hover:text-gold transition-colors">Immigration</a>
+      <a href="/intellectual-property-lawyer-san-francisco/" class="block text-sm font-semibold text-onyx hover:text-gold transition-colors">Intellectual Property</a>
+      <a href="/personal-injury-lawyer-san-francisco/" class="block text-sm font-semibold text-onyx hover:text-gold transition-colors">Personal Injury</a>
+      <a href="/meet-our-team/" class="block text-sm font-semibold text-onyx hover:text-gold transition-colors">Our Team</a>
+      <a href="/blog/" class="block text-sm font-semibold text-onyx hover:text-gold transition-colors">Insights</a>
+      <a href="/contact/" class="block text-sm font-semibold text-onyx hover:text-gold transition-colors">Contact</a>
+      <div class="pt-4 border-t border-slate-100 space-y-3">
+        <a href="tel:+14153605266" class="flex items-center justify-center gap-2 text-sm font-bold text-onyx border-2 border-onyx rounded-lg py-3 w-full hover:bg-onyx hover:text-white transition-colors">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          Call (415) 360-5266
+        </a>
+        <a href="/#contact" class="block text-center text-sm font-bold text-white bg-dark rounded-lg py-3 w-full hover:bg-onyx transition-colors">
+          Inquiry Portal
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof lucide !== 'undefined') {
+      lucide.createIcons();
+    }
+
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+    const mobileMenu = document.getElementById('mobile-nav-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    if (!toggleBtn || !mobileMenu) return;
+
+    toggleBtn.addEventListener('click', function () {
+      const isHidden = mobileMenu.classList.contains('js-menu-hidden');
+
+      if (isHidden) {
+        mobileMenu.classList.remove('js-menu-hidden');
+        requestAnimationFrame(() => {
+          mobileMenu.classList.remove('opacity-0', '-translate-y-4');
+          mobileMenu.classList.add('opacity-100', 'translate-y-0');
+        });
+        if (menuIcon) menuIcon.classList.add('hidden');
+        if (closeIcon) closeIcon.classList.remove('hidden');
+      } else {
+        mobileMenu.classList.add('opacity-0', '-translate-y-4');
+        mobileMenu.classList.remove('opacity-100', 'translate-y-0');
+        if (menuIcon) menuIcon.classList.remove('hidden');
+        if (closeIcon) closeIcon.classList.add('hidden');
+        setTimeout(() => {
+          mobileMenu.classList.add('js-menu-hidden');
+        }, 300);
+      }
+    });
+  });
+</script>

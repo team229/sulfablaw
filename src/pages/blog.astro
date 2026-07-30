@@ -1,0 +1,159 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = [
+  {
+    title: 'Wrongful Death Claims in California: A Family Guide',
+    date: 'July 20, 2026',
+    url: '/blog/wrongful-death-claims-in-california-a-family-guide/',
+    excerpt: 'Losing a loved one because of someone else\'s negligence is one of the most devastating experiences a family can face. Along with the emotional pain, surviving family members often face unexpected financial burdens, legal complexities, and uncertainty about their rights.',
+    image: '/assets/blog/california-wrongful-death-claims.webp',
+  },
+  {
+    title: 'What Happens If You Were Partially at Fault for an Accident?',
+    date: 'July 13, 2026',
+    url: '/blog/what-happens-if-you-were-partially-at-fault-for-an-accident/',
+    excerpt: 'Being involved in an accident is stressful, especially if you\'re unsure whether you were partly responsible. Many people assume that if they share any fault for an accident, they automatically lose the right to recover compensation.',
+    image: '/assets/blog/comparative-negligence.webp',
+  },
+  {
+    title: 'How Pain and Suffering Damages Are Calculated',
+    date: 'July 6, 2026',
+    url: '/blog/how-pain-and-suffering-damages-are-calculated/',
+    excerpt: 'If you\'ve been injured because of someone else\'s negligence, you may be entitled to compensation beyond your medical bills and lost wages. One of the most important parts of a personal injury claim is pain and suffering damages.',
+    image: '/assets/blog/pain-and-suffering-compensation.webp',
+  },
+  {
+    title: 'When Should You Hire a Personal Injury Lawyer?',
+    date: 'June 29, 2026',
+    url: '/blog/when-should-you-hire-a-personal-injury-lawyer/',
+    excerpt: 'Accidents can happen without warning, leaving victims with physical injuries, emotional stress, mounting medical bills, and lost income. If you\'ve been injured because of someone else\'s negligence, you may be entitled to compensation.',
+    image: '/assets/blog/when-to-hire-a-personal-injury-lawyer.webp',
+  },
+  {
+    title: 'Common Mistakes That Can Reduce Your Personal Injury Settlement',
+    date: 'June 22, 2026',
+    url: '/blog/common-mistakes-that-can-reduce-your-personal-injury-settlement/',
+    excerpt: 'If you\'ve been injured because of someone else\'s negligence, you may be entitled to compensation for your medical expenses, lost wages, pain and suffering, and other damages. However, many accident victims unknowingly make mistakes that can weaken their claim.',
+    image: '/assets/blog/personal-injury-claim-mistakes.webp',
+  },
+  {
+    title: 'What Should You Do If Your Trademark Application Is Rejected?',
+    date: 'June 15, 2026',
+    url: '/blog/what-to-do-if-trademark-application-is-rejected/',
+    excerpt: 'Filing a trademark application is an important step in protecting your brand, business name, logo, or slogan. However, receiving a trademark rejection from the USPTO can be frustrating and unexpected.',
+    image: '/assets/blog/trademark-application-rejected.webp',
+  },
+  {
+    title: 'Trademark vs Copyright: What\'s the Difference?',
+    date: 'June 8, 2026',
+    url: '/blog/trademark-vs-copyright-whats-the-difference/',
+    excerpt: 'Protecting intellectual property is essential for businesses, entrepreneurs, artists, content creators, and innovators. However, many people are confused about the differences between trademarks and copyrights.',
+    image: '/assets/blog/trademark-vs-copyright.webp',
+  },
+  {
+    title: 'What Happens If Your Visa Application Is Denied?',
+    date: 'June 1, 2026',
+    url: '/blog/what-happens-if-your-visa-application-is-denied/',
+    excerpt: 'Receiving a visa denial can be frustrating, stressful, and confusing, especially if you\'ve invested significant time, effort, and money into your immigration application.',
+    image: '/assets/blog/visa-application-denied.webp',
+  },
+  {
+    title: 'Why You Should Never Accept the First Insurance Settlement Offer',
+    date: 'May 25, 2026',
+    url: '/blog/why-you-should-never-accept-the-first-insurance-settlement-offer/',
+    excerpt: 'After an accident, many people expect the insurance company to handle their claim fairly and provide compensation that covers their losses. Unfortunately, insurance companies are businesses focused on protecting their profits.',
+    image: '/assets/blog/personal-injury-settlement-lawyer.webp',
+  },
+  {
+    title: 'Signs You Need a Lawyer After a Slip and Fall Accident',
+    date: 'May 18, 2026',
+    url: '/blog/signs-you-need-a-lawyer-after-a-slip-and-fall-accident/',
+    excerpt: 'There are countless places where slip and falls can occur. From grocery stores to restaurants, from offices to apartment complexes, from parking lots to sidewalks, slip and falls can lead to severe consequences like bone fractures or brain injury.',
+    image: '/assets/blog/slip-and-fall-accident-lawyer.webp',
+  },
+  {
+    title: 'What Happens During a USCIS Interview?',
+    date: 'May 11, 2026',
+    url: '/blog/what-happens-during-a-uscis-interview/',
+    excerpt: 'A USCIS interview is an important step in many immigration processes, including green card applications, naturalization, family-based petitions, and adjustment of status cases.',
+    image: '/assets/blog/uscis-interview-questions.webp',
+  },
+  {
+    title: 'What Should You Do Immediately After a Car Accident?',
+    date: 'May 4, 2026',
+    url: '/blog/what-should-you-do-immediately-after-a-car-accident/',
+    excerpt: 'A car accident can happen unexpectedly and leave drivers feeling stressed, confused, and overwhelmed. Whether the accident is minor or severe, the actions you take immediately afterward can significantly affect your health, safety, and legal rights.',
+    image: '/assets/blog/car-accident-lawyer-san-francisco.webp',
+  },
+  {
+    title: 'Digital Evidence in Personal Injury Cases: What You Need to Know',
+    date: 'April 27, 2026',
+    url: '/blog/digital-evidence-in-personal-injury-cases-what-you-need-to-know/',
+    excerpt: 'In the contemporary world, there is a lot more to a personal injury case than just testimony from witnesses and documentation from the hospital. Digital evidence has gained immense importance in establishing liability.',
+    image: '/assets/blog/digital-evidence-in-personal-injury-cases.webp',
+  },
+];
+---
+
+<BaseLayout
+  title="Insights - Sulfab Law Office"
+  description="News and perspectives on immigration, intellectual property, injury law, and workers' compensation from Sulfab Law Office."
+  canonical="/blog/"
+>
+  <section class="hero blog-hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-gold-bar"></div>
+        <span class="hero-page-label">Insights &amp; updates</span>
+        <h1 class="hero-page-title">Insights</h1>
+        <p class="hero-page-subtitle">News and perspectives on immigration, intellectual property, injury law, and workers' compensation from Sulfab Law Office.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-main">
+    <div class="container">
+      <div class="blog-grid">
+        {posts.map((post) => (
+          <article class="blog-card">
+            {post.image && (
+              <a href={post.url} class="blog-image-link">
+                <img src={post.image} alt={post.title} class="blog-image" loading="lazy" />
+              </a>
+            )}
+            <div class="blog-card-body">
+              <time class="blog-date">{post.date}</time>
+              <h2 class="blog-post-title">
+                <a href={post.url}>{post.title}</a>
+              </h2>
+              <p class="blog-excerpt">{post.excerpt}</p>
+              <a href={post.url} class="blog-read-more">
+                Read article
+                <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-glow"></div>
+        <div class="cta-content">
+          <div class="cta-text">
+            <h2>Stay Informed</h2>
+            <p>Subscribe to our newsletter for the latest legal insights and updates.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="/#contact" class="btn-cta">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+

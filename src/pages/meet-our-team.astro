@@ -1,0 +1,135 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import whoWeAre from '../assets/images/who-we-are.jpg';
+import team1 from '../assets/images/team1.jpg';
+import team2 from '../assets/images/team2.jpg';
+---
+
+<BaseLayout
+  title="Meet Our Team of Attorneys in San Francisco | Sulfab Law Office"
+  description="Meet the experienced attorneys at Sulfab Law Office in San Francisco. Trusted experts in immigration and intellectual property law. Call (415) 360-5266."
+  canonical="/meet-our-team/"
+>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-gold-bar"></div>
+        <span class="hero-page-label">Meet Our Team of Attorneys in San Francisco</span>
+        <h1 class="hero-page-title">Meet Our Team</h1>
+        <p class="hero-page-subtitle">Honest counsel and high-level advocacy from the Financial District. We combine transparency with decisive action across immigration, intellectual property, and injury law.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-image-frame">
+            <Image src={whoWeAre} alt="Sulfab Law Office, San Francisco" />
+          </div>
+          <div class="about-address-card">
+            <p class="about-address-label">Visit Our Office</p>
+            <p class="about-address-title">Financial District</p>
+            <p class="about-address-text">369 Pine St, Suite 600<br />San Francisco, CA 94104</p>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <h2 class="about-heading">Precision advocacy when it matters the most</h2>
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="about-card-header">
+                <span class="about-card-icon">
+                  <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </span>
+                <h3>Direct Partner Access</h3>
+              </div>
+              <p>We provide straightforward legal guidance and take decisive action. Every case is handled with precision, urgency, and accountability.</p>
+            </div>
+            <div class="about-card">
+              <div class="about-card-header">
+                <span class="about-card-icon">
+                  <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </span>
+                <h3>Strategic Representation</h3>
+              </div>
+              <p>We build every case with a long-term strategy in mind, whether in immigration court, federal court, or settlement negotiations.</p>
+            </div>
+          </div>
+          <div class="about-actions">
+            <a href="/#contact" class="btn-primary">Begin Case Intake</a>
+            <a href="/contact/" class="btn-secondary-outline">Contact the Office</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="container">
+      <header class="team-header">
+        <p class="kicker">Our Team</p>
+        <h2 class="section-title-left">Attorneys</h2>
+      </header>
+      <div class="team-grid">
+        <div class="team-card">
+          <Image src={team1} alt="Maisoun Sulfab" class="team-photo" />
+          <h3 class="team-name">Maisoun Sulfab</h3>
+          <p class="team-role">Attorney at Law</p>
+          <div class="team-bio">
+            <p>Maisoun Sulfab is a California attorney practicing immigration, personal injury, and intellectual property law. She brings a strong analytical background from the biotechnology and pharmaceutical industries, combining technical precision with legal advocacy.</p>
+            <p>Her practice focuses on removal defense, asylum, family-based petitions, federal litigation, and complex detention and habeas corpus cases in federal court.</p>
+            <p>Maisoun earned a Bachelor of Science degree from Marymount University in Arlington, Virginia. She earned a Master of Science degree from California State University, Sacramento. She received her Juris Doctor degree from San Francisco School of Law.</p>
+          </div>
+          <div class="team-bar-admissions">
+            <p class="team-bar-title">Bar Admissions</p>
+            <ul>
+              <li>California</li>
+              <li>U.S. District Court for the Northern District of California</li>
+              <li>U.S. District Court for the Eastern District of California</li>
+              <li>U.S. District Court for the Southern District of California</li>
+              <li>U.S. District Court for the Central District of California</li>
+              <li>United States Patent and Trademark Office</li>
+            </ul>
+          </div>
+        </div>
+        <div class="team-card">
+          <Image src={team2} alt="Binita Singh" class="team-photo" />
+          <h3 class="team-name">Binita Singh</h3>
+          <p class="team-role">Of-Counsel Attorney</p>
+          <div class="team-bio">
+            <p>Binita Singh is an Of-Counsel attorney with Sulfab Law Office. Binita has sought to practice immigration law with the goal of serving clients on all business and family immigration related matters.</p>
+            <p>Binita represented clients in removal proceedings, written successful arguments for those seeking a removal defense. With the commitment to helping those seeking relief in the legal system, she takes the time to listen and devote herself to fighting for what is right and what is just.</p>
+            <p>Binita graduated from Willamette University School of Law. She earned Masters degree from California State University at Sacramento and Bachelors of Science degree from San Jose State University.</p>
+          </div>
+          <div class="team-bar-admissions">
+            <p class="team-bar-title">Bar Admissions</p>
+            <ul>
+              <li>Oregon</li>
+              <li>United States Patent and Trademark Office</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-glow"></div>
+        <div class="cta-content">
+          <div class="cta-text">
+            <h2>Ready to Discuss Your Case?</h2>
+            <p>Contact us today for a confidential consultation.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="/#contact" class="btn-cta">Schedule a Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+

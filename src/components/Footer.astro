@@ -1,0 +1,84 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/images/sulfab-law-logo.jpg';
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-onyx text-slate-400 text-sm border-t border-slate-800">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 lg:gap-8">
+      <div class="lg:col-span-4">
+        <a href="/" class="inline-block mb-6">
+          <Image src={logo} alt="Sulfab Law Office Logo" class="h-14 w-auto" />
+        </a>
+        <p class="leading-relaxed">
+          The Sulfab Law Office is a trusted San Francisco law firm providing experienced legal representation in Immigration Law, Intellectual Property Law, Personal Injury Law, and Workers' Compensation. Our attorneys help individuals, families, entrepreneurs, and businesses navigate complex legal matters with personalized strategies, transparent communication, and results-driven advocacy. Whether you need assistance with asylum, family-based immigration, trademarks, copyright protection, accident claims, workplace injuries, or federal litigation, Sulfab Law is committed to protecting your rights and achieving the best possible outcome.
+          Known for transparency and high-competency advocacy.
+        </p>
+      </div>
+
+      <div class="lg:col-span-3">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-6">Practice Areas</h4>
+        <ul class="space-y-3">
+          <li><a href="/immigration-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300">Immigration</a></li>
+          <li><a href="/intellectual-property-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300">Intellectual Property</a></li>
+          <li>
+            <a href="/personal-injury-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300">Personal Injury</a>
+            <ul class="mt-2 space-y-2 pl-3 border-l border-slate-700">
+              <li><a href="/car-accidents-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Car Accidents</a></li>
+              <li><a href="/motorcycle-accidents-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Motorcycle Accidents</a></li>
+              <li><a href="/truck-accidents-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Truck Accidents</a></li>
+              <li><a href="/pedestrian-injuries-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Pedestrian Injuries</a></li>
+              <li><a href="/slip-and-fall-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Slip and Fall</a></li>
+              <li><a href="/wrongful-death-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Wrongful Death</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="lg:col-span-2">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-6">The Firm</h4>
+        <ul class="space-y-3">
+          <li><a href="/meet-our-team/" class="hover:text-gold transition-colors duration-300">Our Team</a></li>
+          <li><a href="/blog/" class="hover:text-gold transition-colors duration-300">Insights</a></li>
+          <li><a href="/#contact" class="hover:text-gold transition-colors duration-300">Case Intake</a></li>
+          <li><a href="/contact/" class="hover:text-gold transition-colors duration-300">SF Office</a></li>
+        </ul>
+      </div>
+
+      <div class="lg:col-span-3">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-6">Headquarters</h4>
+        <div class="space-y-4">
+          <p class="leading-relaxed">
+            369 Pine St, Suite 600<br />
+            San Francisco, CA 94104
+          </p>
+          <div class="space-y-2">
+            <p class="flex items-start gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
+              <a href="tel:+14153605266" class="hover:text-gold transition-colors duration-300">(415) 360-5266</a>
+            </p>
+            <p class="flex items-start gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
+              <a href="mailto:sulfab@sulfablaw.com" class="hover:text-gold transition-colors duration-300">sulfab@sulfablaw.com</a>
+            </p>
+            <p class="flex items-start gap-2">
+              <i data-lucide="clock" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
+              <span>Mon - Fri: 9:00 AM - 5:00 PM</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-6">
+      <p class="mb-3">&copy; {year} Sulfab Law Office. All Rights Reserved.</p>
+      <p class="text-xs leading-relaxed opacity-70">
+        Disclaimer: The information provided on this website is for general informational purposes only and does not constitute legal advice. Accessing or using this website does not create an attorney-client relationship between you and Sulfab Law Office. Prior results do not guarantee a similar outcome.
+      </p>
+    </div>
+  </div>
+</footer>
+

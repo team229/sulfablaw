@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSection from '../components/HeroSection';
+import WelcomeSection from '../components/WelcomeSection';
+import PracticeAreasSection from '../components/PracticeAreasSection';
+import ExpertiseSection from '../components/ExpertiseSection';
+import CaseInquiryForm from '../components/CaseInquiryForm';
+import LocationSection from '../components/LocationSection';
+import CTASection from '../components/CTASection';
+---
+
+<BaseLayout
+  title="San Francisco Immigration, Intellectual Property & Personal Injury Law Firm"
+  description="Sulfab Law Office is an immigration, intellectual property, and personal injury law firm in San Francisco. Get expert legal support. Call (415) 360-5266 today."
+  canonical="https://www.sulfablaw.com/"
+>
+  <HeroSection />
+  <WelcomeSection />
+  <PracticeAreasSection />
+  <ExpertiseSection />
+  <section id="contact">
+    <CaseInquiryForm client:load />
+  </section>
+  <CTASection />
+  <LocationSection />
+</BaseLayout>

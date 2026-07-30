@@ -1,0 +1,198 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+}
+
+const {
+  title = 'Sulfab Law Office | San Francisco Law Firm',
+  description = 'Sulfab Law Office is an immigration, intellectual property, and personal injury law firm in San Francisco. Get expert legal support. Call (415) 360-5266 today.',
+  canonical = 'https://www.sulfablaw.com/',
+} = Astro.props;
+const siteUrl = 'https://www.sulfablaw.com';
+const ogImage = `${siteUrl}/assets/images/sulfab-law-logo.jpg`;
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/assets/images/favicon-32x32.jpg" sizes="32x32" />
+    <link rel="icon" href="/assets/images/favicon-192x192.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.jpg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet" />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-P8RFJ7L8');
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HL3ZKTMV9Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-HL3ZKTMV9Y');
+    </script>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "LegalService",
+            "@id": "https://www.sulfablaw.com/#LegalService",
+            "name": "The Sulfab Law Office",
+            "alternateName": "Sulfab Law Office",
+            "description": "The Sulfab Law Office is a San Francisco law firm providing legal representation in Immigration Law, Intellectual Property Law, Personal Injury Law, Federal Litigation, and Workers' Compensation. The firm is dedicated to delivering personalized legal solutions for individuals and businesses throughout California.",
+            "url": "https://www.sulfablaw.com/",
+            "telephone": "+1-415-360-5266",
+            "priceRange": "$$$",
+            "logo": "https://www.sulfablaw.com/assets/images/sulfab-law-logo.jpg",
+            "image": "https://www.sulfablaw.com/assets/images/sulfab-law-logo.jpg",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "369 Pine St, Suite 600",
+              "addressLocality": "San Francisco",
+              "addressRegion": "CA",
+              "postalCode": "94104",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "37.792551",
+              "longitude": "-122.399857"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "reviewCount": "20",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            "sameAs": [
+              "https://www.instagram.com/attorneysulfab_/"
+            ],
+            "areaServed": [
+              { "@type": "City", "name": "San Francisco" },
+              { "@type": "State", "name": "California" },
+              { "@type": "Country", "name": "United States" }
+            ],
+            "serviceType": [
+              "Immigration Lawyer",
+              "Intellectual Property Lawyer",
+              "Personal Injury Lawyer",
+              "Federal Litigation",
+              "Workers' Compensation Lawyer"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.sulfablaw.com/#website",
+            "url": "https://www.sulfablaw.com/",
+            "name": "The Sulfab Law Office",
+            "publisher": { "@id": "https://www.sulfablaw.com/#LegalService" },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.sulfablaw.com/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "The Sulfab Law Office",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "reviewCount": "2"
+        }
+      }
+    </script>
+
+    <title>{title}</title>
+  </head>
+  <body class="bg-white antialiased font-sans">
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8RFJ7L8" height="0" width="0" class="hidden"></iframe>
+    </noscript>
+
+    <div id="page" class="site">
+      <a class="sr-only" href="#primary">Skip to content</a>
+      <Header />
+      <main id="primary" class="site-main">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        if (typeof lucide !== 'undefined') {
+          lucide.createIcons();
+        }
+      });
+    </script>
+  </body>
+</html>
