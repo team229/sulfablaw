@@ -8,10 +8,10 @@ export default defineConfig({
   integrations: [react(), sitemap()],
   output: 'static',
   compressHTML: true,
+  server: {
+    allowedHosts: true,
+  },
   vite: {
     plugins: [tailwindcss()],
-    server: {
-      allowedHosts: true,
-    },
   },
 });
