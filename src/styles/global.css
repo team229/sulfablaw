@@ -443,8 +443,3 @@
 
 /* Selection */
 ::selection { background-color: #B45309; color: #fff; }
-
-/* Responsive nav */
-@media (max-width: 767px) {
-  .md\\:hidden { display: none; }
-}

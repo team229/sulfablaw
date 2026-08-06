@@ -10,5 +10,8 @@ export default defineConfig({
   compressHTML: true,
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      allowedHosts: true,
+    },
   },
 });
