@@ -31,7 +31,7 @@ export default function HeroSection() {
             Begin Case Intake
           </a>
           <a
-            href="/meet-our-team/"
+            href="/meet-our-team"
             className="inline-flex items-center justify-center bg-transparent text-white font-bold text-xs uppercase tracking-[0.3em] px-7 py-3.5 rounded-lg border border-white/25 hover:border-white/60 hover:bg-white/5 transition-colors"
           >
             Meet Our Team

@@ -13,10 +13,20 @@ export interface Props {
 const {
   title = 'Sulfab Law Office | San Francisco Law Firm',
   description = 'Sulfab Law Office is an immigration, intellectual property, and personal injury law firm in San Francisco. Get expert legal support. Call (415) 360-5266 today.',
-  canonical = 'https://www.sulfablaw.com/',
+  canonical,
 } = Astro.props;
 const siteUrl = 'https://www.sulfablaw.com';
 const ogImage = `${siteUrl}/assets/images/sulfab-law-logo.jpg`;
+
+let pathname = Astro.url.pathname;
+if (pathname !== '/' && !pathname.endsWith('/')) {
+  pathname += '/';
+}
+const canonicalUrl = canonical
+  ? canonical.startsWith('http')
+    ? canonical
+    : `${siteUrl}${canonical}`
+  : `${siteUrl}${pathname}`;
 ---
 
 <!doctype html>
@@ -25,11 +35,11 @@ const ogImage = `${siteUrl}/assets/images/sulfab-law-logo.jpg`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    <link rel="canonical" href={canonicalUrl} />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content={canonical} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
