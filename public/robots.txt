@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: /admin/
+Allow: /
 
+# Sitemap
 Sitemap: https://www.sulfablaw.com/sitemap.xml
