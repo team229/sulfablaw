@@ -7,10 +7,10 @@ export default function CTASection() {
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-8 items-center relative z-10">
           <div>
             <h2 className="text-white text-3xl md:text-5xl italic font-serif font-bold leading-tight mb-4">
-              Ready to Discuss Your Case?
+              Schedule a Consultation For Your Legal Case
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed">
-              Contact us today for a confidential consultation.
+              If you need legal guidance in immigration, intellectual property or personal injury, the Sulfab Law Office can help. As a trusted personal injury law firm in San Francisco, we provide optimal legal advice based on your case. Contact us today at (415) 360-5266.
             </p>
           </div>
 

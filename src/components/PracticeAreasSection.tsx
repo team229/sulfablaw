@@ -1,22 +1,28 @@
 const areas = [
   {
-    title: 'Immigration',
+    title: 'Immigration Law for Individuals and Families',
     href: '/immigration-lawyer-san-francisco/',
     description:
-      'Strategic representation in asylum, removal defense, federal litigation, family petitions, and investor visas. We handle complex cases nationwide, including federal court matters.',
+      'Family immigration, asylum, removal proceedings, investment visas and federal litigation.',
   },
   {
-    title: 'Intellectual Property',
+    title: 'Trademarks and Intellectual Property Law',
     href: '/intellectual-property-lawyer-san-francisco/',
     description:
-      'Protecting your ideas, brand, and business through trademarks, licensing, and IP strategy. We help you secure and enforce what you build.',
+      'Protecting valuable intellectual property and business assets. As an intellectual property law firm in San Francisco, we help clients understand their options for trademarks, copyrights and licensing.',
   },
   {
-    title: 'Personal Injury',
+    title: 'Vehicle, Pedestrian, Motorcycle Accidents and Personal Injury',
     href: '/personal-injury-lawyer-san-francisco/',
     description:
-      'Relentless advocacy for those injured by negligence. We pursue full compensation for medical expenses, lost income, and long term harm.',
+      'Car accidents, truck accidents, motorcycle accidents, pedestrian accidents and personal injury claims — helping you pursue compensation for medical expenses, lost income and more.',
   },
+]
+
+const secondaryAreas = [
+  { title: 'Slip-and-Fall Cases', href: '/slip-and-fall-lawyer-san-francisco/' },
+  { title: 'Wrongful Death Cases', href: '/wrongful-death-lawyer-san-francisco/' },
+  { title: 'Federal Litigation and Complex Legal Disputes', href: '/immigration-lawyer-san-francisco/' },
 ]
 
 export default function PracticeAreasSection() {
@@ -29,11 +35,14 @@ export default function PracticeAreasSection() {
               What We Do
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-dark mb-6 italic font-serif">
-              Practice Areas
+              Legal Services That Put You First
             </h2>
             <div className="w-16 h-1 bg-gold rounded-full mb-6" />
             <p className="text-slate-600">
-              Focused legal representation across immigration, intellectual property, and personal injury.
+              Every client has a different story. For that reason, our legal solutions are customized according to your needs rather than applying a one-size-fits-all approach.
+            </p>
+            <p className="text-slate-600 mt-4 text-sm leading-relaxed">
+              We believe good communication builds trust. Our team answers your questions and keeps you informed throughout your case.
             </p>
           </div>
 
@@ -52,6 +61,18 @@ export default function PracticeAreasSection() {
                 </p>
               </a>
             ))}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              {secondaryAreas.map((area) => (
+                <a
+                  key={area.href}
+                  href={area.href}
+                  className="flex items-center gap-3 p-4 rounded-xl bg-slate-50 border border-slate-100 hover:border-gold/30 hover:bg-white transition-all"
+                >
+                  <span className="w-2 h-2 rounded-full bg-gold shrink-0"></span>
+                  <span className="text-slate-700 text-sm font-medium">{area.title}</span>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>
