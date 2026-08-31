@@ -1,93 +1,185 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>https://www.sulfablaw.com/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/immigration-lawyer-san-francisco</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/intellectual-property-lawyer-san-francisco</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/personal-injury-lawyer-san-francisco</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/car-accidents-lawyer-san-francisco/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/motorcycle-accidents-lawyer-san-francisco/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/truck-accidents-lawyer-san-francisco/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/pedestrian-injuries-lawyer-san-francisco/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/slip-and-fall-lawyer-san-francisco/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/wrongful-death-lawyer-san-francisco/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/meet-our-team</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/contact</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/wrongful-death-claims-in-california-a-family-guide/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/what-happens-if-you-were-partially-at-fault-for-an-accident/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/how-pain-and-suffering-damages-are-calculated/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/when-should-you-hire-a-personal-injury-lawyer/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/common-mistakes-that-can-reduce-your-personal-injury-settlement/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/what-to-do-if-trademark-application-is-rejected/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/trademark-vs-copyright-whats-the-difference/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/what-happens-if-your-visa-application-is-denied/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/why-you-should-never-accept-the-first-insurance-settlement-offer/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/signs-you-need-a-lawyer-after-a-slip-and-fall-accident/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/what-happens-during-a-uscis-interview/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/what-should-you-do-immediately-after-a-car-accident/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/digital-evidence-in-personal-injury-cases-what-you-need-to-know/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/when-should-you-hire-a-truck-accident-lawyer-in-san-francisco/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/can-i-sue-after-a-slip-and-fall-accident-in-san-francisco/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/how-long-do-you-have-to-file-a-wrongful-death-claim-in-california/</loc>
-</url>
-<url>
-  <loc>https://www.sulfablaw.com/blog/what-should-i-do-if-someone-uses-my-trademark-without-permission/</loc>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://www.sulfablaw.com/</loc>
+       <lastmod>2026-08-31T13:06:26+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/car-accidents-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:24+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/motorcycle-accidents-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/truck-accidents-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/pedestrian-injuries-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:29+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/slip-and-fall-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:30+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/wrongful-death-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/immigration-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:25+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/intellectual-property-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:26+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/personal-injury-lawyer-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:30+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/meet-our-team/</loc>
+       <lastmod>2026-08-31T13:06:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/</loc>
+       <lastmod>2026-08-31T13:06:23+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/contact/</loc>
+       <lastmod>2026-08-31T13:06:25+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/what-should-i-do-if-someone-uses-my-trademark-without-permission/</loc>
+       <lastmod>2026-08-31T13:06:20+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/how-long-do-you-have-to-file-a-wrongful-death-claim-in-california/</loc>
+       <lastmod>2026-08-31T13:06:15+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/can-i-sue-after-a-slip-and-fall-accident-in-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:13+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/when-should-you-hire-a-truck-accident-lawyer-in-san-francisco/</loc>
+       <lastmod>2026-08-31T13:06:22+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/wrongful-death-claims-in-california-a-family-guide/</loc>
+       <lastmod>2026-08-31T13:06:23+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/what-happens-if-you-were-partially-at-fault-for-an-accident/</loc>
+       <lastmod>2026-08-31T13:06:19+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/how-pain-and-suffering-damages-are-calculated/</loc>
+       <lastmod>2026-08-31T13:06:15+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/when-should-you-hire-a-personal-injury-lawyer/</loc>
+       <lastmod>2026-08-31T13:06:21+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/common-mistakes-that-can-reduce-your-personal-injury-settlement/</loc>
+       <lastmod>2026-08-31T13:06:13+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/what-to-do-if-trademark-application-is-rejected/</loc>
+       <lastmod>2026-08-31T13:06:21+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/trademark-vs-copyright-whats-the-difference/</loc>
+       <lastmod>2026-08-31T13:06:18+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/what-happens-if-your-visa-application-is-denied/</loc>
+       <lastmod>2026-08-31T13:06:19+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/why-you-should-never-accept-the-first-insurance-settlement-offer/</loc>
+       <lastmod>2026-08-31T13:06:22+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/signs-you-need-a-lawyer-after-a-slip-and-fall-accident/</loc>
+       <lastmod>2026-08-31T13:06:16+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/what-happens-during-a-uscis-interview/</loc>
+       <lastmod>2026-08-31T13:06:18+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/what-should-you-do-immediately-after-a-car-accident/</loc>
+       <lastmod>2026-08-31T13:06:20+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.sulfablaw.com/blog/digital-evidence-in-personal-injury-cases-what-you-need-to-know/</loc>
+       <lastmod>2026-08-31T13:06:14+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
 </urlset>
