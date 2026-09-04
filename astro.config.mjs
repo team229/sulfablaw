@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://www.sulfablaw.com',
-  trailingSlash: 'never',
+  trailingSlash: 'always',
   integrations: [react(), sitemap()],
   output: 'static',
   compressHTML: true,
