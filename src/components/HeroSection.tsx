@@ -1,7 +1,16 @@
 export default function HeroSection() {
   return (
     <section className="relative bg-dark pt-28 pb-32 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-dark via-dark to-slate-900/80 pointer-events-none" />
+      <div className="absolute inset-0">
+        <img
+          src="/assets/images/hero-home.webp"
+          alt=""
+          className="w-full h-full object-cover object-center"
+          loading="eager"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-dark/95 via-dark/80 to-slate-900/60" />
+        <div className="absolute inset-0 bg-dark/20" />
+      </div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-16 relative z-10">
         <div className="w-16 h-1 bg-gold rounded-full mb-8" />
