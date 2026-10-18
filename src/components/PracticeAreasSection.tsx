@@ -9,7 +9,7 @@ const areas = [
     title: 'Trademarks and Intellectual Property Law',
     href: '/intellectual-property-lawyer-san-francisco/',
     description:
-      'Protecting valuable intellectual property and business assets. As an intellectual property law firm in San Francisco, we help clients understand their options for trademarks, copyrights and licensing.',
+      'Protecting valuable intellectual property and business assets. We help clients understand their options for trademarks, copyrights and licensing.',
   },
   {
     title: 'Vehicle, Pedestrian, Motorcycle Accidents and Personal Injury',
@@ -47,6 +47,9 @@ export default function PracticeAreasSection() {
           </div>
 
           <div className="lg:col-span-7 space-y-4">
+            <p className="text-slate-500 text-sm font-medium pt-2">
+              Here are just a few examples of the type of cases we handle:
+            </p>
             {areas.map((area) => (
               <a
                 key={area.href}

@@ -26,8 +26,14 @@ export default function HeroSection() {
           </span>
         </h2>
 
-        <p className="text-slate-400 text-xl md:text-2xl max-w-2xl leading-relaxed mb-10">
+        <p className="text-slate-400 text-xl md:text-2xl max-w-2xl leading-relaxed mb-6">
           When legal problems impact your life, you need clear advice and strong support. The Sulfab Law Office helps people make informed decisions with honest guidance and personal attention. We are an immigration law firm in San Francisco, proud to represent individuals, families, business owners and professionals throughout California in complex legal matters.
+        </p>
+        <p className="text-slate-400 text-lg max-w-2xl leading-relaxed mb-5">
+          As a trusted intellectual property law firm in San Francisco, we help protect brands, trademarks, copyrights and other valuable business assets.
+        </p>
+        <p className="text-slate-400 text-lg max-w-2xl leading-relaxed mb-5">
+          Furthermore, we are also a respected personal injury law firm in San Francisco, representing clients injured because of another person's negligence.
         </p>
         <p className="text-slate-400 text-lg max-w-2xl leading-relaxed mb-10">
           Our goal is to protect your interests, provide you with transparent assistance at every step and try to achieve the most successful results for each case.
