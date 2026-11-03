@@ -426,6 +426,17 @@
 .blog-post .entry-content a:hover { text-decoration: none; }
 .blog-post .entry-content em { font-style: italic; }
 .blog-post .entry-content strong { font-weight: 700; }
+
+/* In-post table of contents */
+.blog-post .post-toc { border: 1px solid #e2e8f0; border-left: 4px solid #B45309; border-radius: 0.5rem; background: #f8fafc; padding: 1.25rem 1.5rem; margin-bottom: 2rem; }
+.blog-post .post-toc p { font-size: 0.625rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.2em; color: #B45309; margin-bottom: 0.75rem; }
+.blog-post .post-toc ol { list-style: decimal; padding-left: 1.25rem; margin-bottom: 0; font-size: 0.95rem; line-height: 1.7; }
+.blog-post .post-toc li { margin-bottom: 0.25rem; }
+.blog-post .post-toc a { color: #0f172a; text-decoration: none; }
+.blog-post .post-toc a:hover { color: #B45309; text-decoration: underline; }
+.blog-post .post-byline { font-size: 0.8125rem; color: #64748b; margin-top: -1rem; margin-bottom: 2rem; }
+.blog-post .post-byline a { color: #B45309; font-weight: 600; text-decoration: none; }
+.blog-post .post-byline a:hover { text-decoration: underline; }
 .blog-back-link { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.625rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.2em; color: #B45309; text-decoration: none; margin-top: 2rem; }
 .blog-back-link:hover { text-decoration: underline; }
 
