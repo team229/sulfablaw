@@ -1,0 +1,121 @@
+---
+import { Image } from 'astro:assets';
+import Icon from './Icon.astro';
+import SectionHeading from './SectionHeading.astro';
+import { caseResults, firm } from '../data/site';
+import courthouse from '../assets/images/courthouse-columns.jpg';
+---
+
+<section id="results" class="border-y border-stone-200 bg-white py-16 sm:py-24">
+  <div class="shell">
+    <SectionHeading
+      eyebrow="Public Docket Records"
+      title="Documented Results in Federal Court"
+      description="The cases below come from public court records. They show the kind of detention and habeas work the firm does, including one outcome that was only partly successful. Every case depends on its own facts, and prior results do not guarantee a similar outcome."
+    />
+
+    <div class="relative mt-10 h-64 overflow-hidden border border-stone-300 bg-slate-900 shadow-lg sm:h-72" data-reveal>
+      <Image
+        src={courthouse}
+        alt="San Francisco federal courthouse columns"
+        widths={[720, 1080, 1440]}
+        sizes="100vw"
+        format="webp"
+        quality={80}
+        loading="lazy"
+        class="absolute inset-0 h-full w-full object-cover object-center"
+      />
+      <div
+        class="absolute inset-0"
+        style="background: linear-gradient(90deg, rgba(42,5,15,0.94) 0%, rgba(42,5,15,0.72) 45%, rgba(42,5,15,0.15) 100%)"
+      ></div>
+    </div>
+
+    <div class="mt-8 border border-stone-300 bg-stone-50 shadow-lg" data-reveal>
+      <!-- Desktop table -->
+      <div class="hidden overflow-x-auto md:block">
+        <table class="w-full min-w-[720px] border-collapse text-left text-[12.5px]">
+          <caption class="sr-only">
+            Documented federal habeas and detention case results from public court records
+          </caption>
+          <thead>
+            <tr class="bg-brand-900 font-display text-[10px] tracking-[0.12em] text-white uppercase">
+              <th scope="col" class="px-4 py-3.5 font-semibold">Case</th>
+              <th scope="col" class="px-4 py-3.5 font-semibold">Court</th>
+              <th scope="col" class="px-4 py-3.5 font-semibold">Filed</th>
+              <th scope="col" class="px-4 py-3.5 font-semibold">Result</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-stone-200 bg-white">
+            {
+              caseResults.map((result) => (
+                <tr class="align-top transition hover:bg-brand-50/50">
+                  <td class="px-4 py-4 font-semibold text-slate-900">{result.name}</td>
+                  <td class="px-4 py-4">
+                    <span class="font-mono text-[10.5px] font-semibold whitespace-nowrap text-brand-800">{result.court}</span>
+                  </td>
+                  <td class="px-4 py-4 whitespace-nowrap text-slate-500">{result.filed}</td>
+                  <td class="px-4 py-4 leading-relaxed text-slate-600">
+                    <strong class="font-semibold text-brand-900">{result.lead}</strong>{' '}
+                    {result.detail}
+                  </td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Mobile cards -->
+      <div class="divide-y divide-stone-200 md:hidden">
+        {
+          caseResults.map((result, index) => (
+            <article class="bg-white p-4">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="font-serif text-[15px] leading-snug font-semibold text-slate-900">
+                  {result.name}
+                </h3>
+                <span class="shrink-0 font-mono text-[9px] text-stone-400">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+              </div>
+              <div class="mt-2 flex flex-wrap items-center gap-2">
+                <span class="font-mono text-[9.5px] font-semibold text-brand-800">{result.court}</span>
+                <span class="h-3 w-px bg-stone-300"></span>
+                <span class="text-[10px] text-slate-500">{result.filed}</span>
+              </div>
+              <p class="mt-2.5 text-[11.5px] leading-relaxed text-slate-600">
+                <strong class="font-semibold text-brand-900">{result.lead}</strong> {result.detail}
+              </p>
+            </article>
+          ))
+        }
+      </div>
+
+      <div class="border-t border-stone-200 bg-stone-100 px-4 py-3 text-center font-mono text-[10px] text-slate-500">
+        Prior results do not guarantee a similar outcome.
+      </div>
+    </div>
+
+    <div class="mt-8 border-l-4 border-brand-800 bg-brand-50/70 p-6 sm:p-8" data-reveal>
+      <h3 class="text-2xl font-semibold">What These Cases Show</h3>
+      <div class="mt-3 max-w-3xl space-y-3 text-[13px] leading-relaxed text-slate-700">
+        <p>
+          Three things stand out. Emergency motions can work when a client was re-detained without
+          a hearing. A final habeas grant, as in the Nganda-Mekumba matter, can give lasting
+          protection rather than a temporary pause. And partial wins, like the bond hearing order
+          in Lopez-Aldama, are still meaningful because a hearing before an immigration judge is
+          often the first real chance to be heard.
+        </p>
+        <p>
+          If you or a family member is detained, call right away. Time is the one thing these cases
+          never have enough of.
+        </p>
+      </div>
+      <a href={firm.phoneHref} class="btn-primary mt-6">
+        <Icon name="phone" class="size-4" />
+        Emergency Detention Call: {firm.phoneDisplay}
+      </a>
+    </div>
+  </div>
+</section>

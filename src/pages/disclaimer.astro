@@ -1,0 +1,128 @@
+---
+import LegalLayout from '../components/LegalLayout.astro';
+import { firm } from '../data/site';
+
+const toc = [
+  { text: 'Attorney advertising', slug: 'attorney-advertising' },
+  { text: 'General information only', slug: 'general-information-only' },
+  { text: 'No guarantee of results', slug: 'no-guarantee-of-results' },
+  { text: 'Case results and dockets', slug: 'case-results-and-dockets' },
+  { text: 'Jurisdiction and licensing', slug: 'jurisdiction-and-licensing' },
+  { text: 'Deadlines and reliance', slug: 'deadlines-and-reliance' },
+  { text: 'Third-party information', slug: 'third-party-information' },
+  { text: 'Language and translation', slug: 'language-and-translation' },
+  { text: 'Contact', slug: 'contact' },
+];
+---
+
+<LegalLayout
+  title="Disclaimer | Sulfab Law Office P.C."
+  description="Important limitations on the information published by Sulfab Law Office P.C., including attorney advertising, prior results, and jurisdictional scope."
+  h1="Disclaimer"
+  eyebrow="Important Notice"
+  lede="What this website does and does not tell you, and the limits that apply to the information published here."
+  updated="2026-11-21"
+  toc={toc}
+>
+  <p>
+    This page explains the limits of the information published on
+    <a href="https://www.sulfablaw.com">sulfablaw.com</a> by Sulfab Law Office P.C. Please read it
+    together with our <a href="/terms-of-service">Terms of Service</a> and
+    <a href="/privacy-policy">Privacy Policy</a>.
+  </p>
+
+  <h2 id="attorney-advertising">Attorney advertising</h2>
+  <p>
+    This website is attorney advertising. It is intended to provide general information about the
+    firm and the immigration services it offers, and to allow people to contact the firm. It is not
+    a solicitation of clients in any jurisdiction where the firm is not licensed to practice, and it
+    is not directed to anyone in a state where the content would violate that state’s rules.
+  </p>
+  <p>
+    The firm is licensed in the State of California. Its attorneys are admitted in the courts listed
+    on the <a href="/about-us">About page</a>. Admission in one jurisdiction does not authorize
+    practice in another, and federal immigration practice is subject to specific rules.
+  </p>
+
+  <h2 id="general-information-only">General information only</h2>
+  <p>
+    The content on this website — including practice-area pages, service-area pages, FAQs, guides,
+    and answers to common questions — is general information, not legal advice. It does not take
+    into account your particular facts, history, deadlines, or relief options. Immigration law and
+    agency policy change frequently, and information that was accurate when written may later be
+    outdated.
+  </p>
+  <p>
+    You should not act, or decide not to act, based on this website alone. A short consultation with
+    an attorney who can review your documents is the only reliable way to understand your options.
+  </p>
+
+  <h2 id="no-guarantee-of-results">No guarantee of results</h2>
+  <p>
+    Nothing on this website promises or guarantees any outcome. Descriptions of how the firm
+    approaches a type of case, or of relief that may be available in the abstract, are not
+    predictions about your matter. Every case depends on its facts, the evidence, the court, the
+    agency, and the law in effect at the time.
+  </p>
+
+  <h2 id="case-results-and-dockets">Case results and dockets</h2>
+  <p>
+    Where the website describes federal court filings or decisions, those descriptions are drawn
+    from public dockets and are provided to illustrate the firm’s experience. Prior results do not
+    guarantee or predict a similar outcome in any other case. Docket information can be updated,
+    corrected, or sealed, and the firm does not warrant that every entry is current. Clients and
+    prospective clients should confirm the status of a matter directly with the court or with the
+    firm.
+  </p>
+
+  <h2 id="jurisdiction-and-licensing">Jurisdiction and licensing</h2>
+  <p>
+    The firm’s attorneys are licensed to practice law in California and before specified federal
+    courts. The firm does not claim licensure in any other state. If your matter requires
+    representation in another jurisdiction, the firm will tell you and may refer you to counsel
+    there. Nothing on this website should be read as an offer to practice law where the firm is not
+    authorized to do so.
+  </p>
+
+  <h2 id="deadlines-and-reliance">Deadlines and reliance</h2>
+  <p>
+    Immigration deadlines can be short and unforgiving. The website does not calculate deadlines,
+    extend them, or preserve them. If you have a Notice to Appear, a hearing date, a filing
+    deadline, or a family member in custody, contact the firm directly at
+    <a href={firm.phoneHref}>{firm.phoneDisplay}</a>. Do not rely on a web form or on general
+    website content to protect a deadline.
+  </p>
+
+  <h2 id="third-party-information">Third-party information</h2>
+  <p>
+    This website links to government agencies, courts, review platforms, map services, and other
+    third-party sites. The firm does not control those sites and is not responsible for their
+    content, accuracy, availability, or privacy practices. A link does not constitute an endorsement
+    or a verification of the information found there.
+  </p>
+  <p>
+    Client reviews and profile ratings displayed or linked from this site are the statements of
+    third parties. They are not verified by the firm, and they are not a promise about your case.
+  </p>
+
+  <h2 id="language-and-translation">Language and translation</h2>
+  <p>
+    Some content or communications may be available in Spanish or other languages. Translations are
+    provided as a convenience. If there is any conflict between an English version and a translation,
+    the English version controls. Interpreters and translated documents used in a case must meet the
+    requirements of the relevant court or agency.
+  </p>
+
+  <h2 id="contact">Contact</h2>
+  <p>Questions about this disclaimer can be sent to:</p>
+  <ul>
+    <li><strong>Sulfab Law Office P.C.</strong></li>
+    <li>{firm.address.street}, {firm.address.city}, {firm.address.state} {firm.address.zip}</li>
+    <li>Email: <a href={firm.emailHref}>{firm.email}</a></li>
+    <li>Telephone: <a href={firm.phoneHref}>{firm.phoneDisplay}</a></li>
+  </ul>
+  <p>
+    This disclaimer is general and should be reviewed by the firm’s counsel to confirm it matches the
+    firm’s advertising and website practices.
+  </p>
+</LegalLayout>

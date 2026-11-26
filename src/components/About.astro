@@ -1,0 +1,140 @@
+---
+import { Image } from 'astro:assets';
+import Icon from './Icon.astro';
+import consultFamily from '../assets/images/office-exterior.webp';
+import signingDocuments from '../assets/images/office-montgomery.jpg';
+---
+
+<section id="about" class="border-b border-stone-200 bg-white py-16 sm:py-24">
+  <div class="shell">
+    <div class="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
+      <div class="self-start lg:sticky lg:top-28 lg:col-span-4" data-reveal>
+        <span class="eyebrow">San Francisco Legal Advocacy</span>
+        <h2 class="mt-3 text-[1.9rem] leading-[1.12] font-semibold sm:text-[2.35rem]">
+          Your Immigration Lawyer in San Francisco
+        </h2>
+        <span class="rule-accent" aria-hidden="true"></span>
+
+        <div class="mt-8 border border-stone-200 border-t-2 border-t-brand-800 bg-stone-50 p-5">
+          <span class="eyebrow">Principal Counsel</span>
+          <p class="mt-2 font-serif text-xl font-semibold text-slate-900">Maisoun Sulfab, Esq.</p>
+          <p class="mt-1 text-[11px] text-slate-500">
+            Founder &amp; Principal Attorney · CA Bar #313318
+          </p>
+          <div class="mt-4 space-y-2.5 border-t border-stone-200 pt-4 text-[11.5px] leading-snug text-slate-600">
+            <p class="flex gap-2">
+              <Icon name="check" class="mt-0.5 size-3.5 shrink-0 text-brand-800" />
+              Admitted in all four California federal district courts
+            </p>
+            <p class="flex gap-2">
+              <Icon name="check" class="mt-0.5 size-3.5 shrink-0 text-brand-800" />
+              USPTO registered patent practice
+            </p>
+            <p class="flex gap-2">
+              <Icon name="check" class="mt-0.5 size-3.5 shrink-0 text-brand-800" />
+              In-person, phone and video consultations
+            </p>
+          </div>
+        </div>
+
+        <a href="/about-us" class="link-arrow mt-5">
+          More about the firm
+          <Icon name="arrow-right" class="size-3.5" />
+        </a>
+      </div>
+
+      <div class="lg:col-span-8">
+        <div class="space-y-5 text-[14.5px] leading-[1.85] text-slate-700 sm:text-[15px]">
+          <p class="first-letter:float-left first-letter:mt-1 first-letter:mr-2.5 first-letter:font-serif first-letter:text-[3.2rem] first-letter:leading-[0.8] first-letter:font-semibold first-letter:text-brand-800">
+            If you are searching for an immigration lawyer in San Francisco, chances are something
+            has already gone wrong or is about to. A family member is in detention. A hearing notice
+            arrived. An application has been sitting for months. Sulfab Law Office is an immigration
+            law firm in San Francisco built for exactly these moments, and for the quieter ones too,
+            like planning a family petition the right way the first time.
+          </p>
+          <p>
+            Maisoun Sulfab is a California immigration attorney who works in immigration court and
+            in federal court. Her practice centers on removal defense, asylum, family-based
+            petitions, and detention cases that need to be challenged through federal habeas corpus.
+            That last part matters. When someone is detained, the immigration system moves slowly
+            while the person’s life does not. Sometimes the fastest path to a fair outcome is a
+            federal judge.
+          </p>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <figure class="overflow-hidden border border-stone-200 bg-white shadow-card">
+            <div class="overflow-hidden">
+              <Image
+                src={consultFamily}
+                alt="Sulfab Law Office building in San Francisco's Financial District"
+                widths={[480, 720, 960]}
+                sizes="(min-width: 1024px) 32vw, (min-width: 640px) 45vw, 90vw"
+                format="webp"
+                quality={82}
+                loading="lazy"
+                class="h-56 w-full object-cover object-center transition duration-700 hover:scale-[1.04] sm:h-64"
+              />
+            </div>
+            <figcaption class="border-t border-stone-200 bg-stone-50 p-3 text-[11px] leading-snug font-medium text-slate-600">
+              Our office in the San Francisco Financial District.
+            </figcaption>
+          </figure>
+
+          <figure class="overflow-hidden border border-stone-200 bg-white shadow-card">
+            <div class="overflow-hidden">
+              <Image
+                src={signingDocuments}
+                alt="Sulfab Law Office building on Montgomery Street, San Francisco"
+                widths={[480, 720, 960]}
+                sizes="(min-width: 1024px) 32vw, (min-width: 640px) 45vw, 90vw"
+                format="webp"
+                quality={82}
+                loading="lazy"
+                class="h-56 w-full object-cover object-center transition duration-700 hover:scale-[1.04] sm:h-64"
+              />
+            </div>
+            <figcaption class="border-t border-stone-200 bg-stone-50 p-3 text-[11px] leading-snug font-medium text-slate-600">
+              Serving clients from our office in the Financial District.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2 lg:mt-16">
+      <article class="border border-stone-200 border-t-2 border-t-brand-800 bg-stone-50 p-6 shadow-card" data-reveal>
+        <h3 class="flex items-start gap-2.5 text-xl leading-snug font-semibold">
+          <Icon name="scale" class="mt-1 size-5 shrink-0 text-brand-800" />
+          What an Immigration Attorney in San Francisco Actually Does
+        </h3>
+        <p class="mt-3 text-[13px] leading-relaxed text-slate-600">
+          A good immigration attorney in San Francisco does three things. First, we read your file
+          closely and tell you where you really stand, including the weak spots. Second, we choose
+          the right forum and the right form of relief, whether that is an asylum claim, a bond
+          hearing, a family petition or a federal petition. Third, we stay on the case until there
+          is a result, because immigration matters rarely end with a single filing.
+        </p>
+      </article>
+
+      <article class="border border-stone-200 border-t-2 border-t-brand-800 bg-stone-50 p-6 shadow-card" data-reveal>
+        <h3 class="flex items-start gap-2.5 text-xl leading-snug font-semibold">
+          <Icon name="landmark" class="mt-1 size-5 shrink-0 text-brand-800" />
+          Why Immigration Lawyers in California Face a Different Landscape
+        </h3>
+        <p class="mt-3 text-[13px] leading-relaxed text-slate-600">
+          As an immigration lawyer in California, I see how much depends on the court that hears
+          your case. Detention practices, bond hearing availability and federal court responses
+          differ across the Northern, Eastern, Central and Southern Districts. Maisoun is admitted
+          in all four, which lets the firm follow a case to whichever federal court has jurisdiction
+          over where a client is held.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-1.5 border-t border-stone-200 pt-4">
+          {['N.D. Cal.', 'E.D. Cal.', 'C.D. Cal.', 'S.D. Cal.'].map((court) => (
+            <span class="chip bg-white">{court}</span>
+          ))}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

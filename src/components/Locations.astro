@@ -1,0 +1,68 @@
+---
+import { Image } from 'astro:assets';
+import Icon from './Icon.astro';
+import SectionHeading from './SectionHeading.astro';
+import { locations } from '../data/site';
+import skyline from '../assets/images/sf-skyline.jpg';
+---
+
+<section id="locations" class="border-b border-stone-200 bg-white py-16 sm:py-24">
+  <div class="shell">
+    <SectionHeading
+      eyebrow="Regional Reach"
+      title="Serving San Francisco and the Bay Area"
+      description="Immigration problems do not stay inside city limits, and neither does our work. We meet clients in person, by phone and by video, and we represent people from across the Bay Area."
+    />
+
+    <div class="relative mt-10 h-64 overflow-hidden border border-stone-300 shadow-lg sm:h-80" data-reveal>
+      <Image
+        src={skyline}
+        alt="San Francisco Financial District skyline at dusk"
+        widths={[720, 1080, 1600]}
+        sizes="100vw"
+        format="webp"
+        quality={82}
+        loading="lazy"
+        class="absolute inset-0 h-full w-full object-cover object-center"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/45 to-slate-950/10"></div>
+      <div class="absolute inset-0 bg-brand-950/20 mix-blend-multiply"></div>
+    </div>
+
+    <div class="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+      {
+        locations.map((area) => (
+          <a
+            href={area.href}
+            class="group flex flex-col border border-stone-200 bg-stone-50 p-6 shadow-card transition duration-300 hover:border-brand-800 hover:bg-white hover:shadow-float"
+          >
+            <div class="flex items-center gap-2.5">
+              <Icon name="map-pin" class="size-4 text-brand-800" />
+              <h3 class="text-lg font-semibold transition group-hover:text-brand-800">{area.city}</h3>
+            </div>
+            <p class="mt-2.5 text-[12.5px] leading-relaxed text-slate-600">{area.body}</p>
+            <span class="mt-auto pt-4 text-[10px] font-semibold tracking-[0.12em] text-brand-800 uppercase">
+              Learn about {area.city} →
+            </span>
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="mt-7 text-center">
+      <h3 class="text-lg font-semibold text-slate-900">Learn About Your Local Area</h3>
+      <a href="/service-areas" class="link-arrow mt-3">
+        View all Bay Area service areas
+        <Icon name="arrow-right" class="size-3.5" />
+      </a>
+    </div>
+
+    <div class="mt-8 border-l-4 border-brand-500 bg-brand-900 p-6 text-white shadow-md sm:p-7" data-reveal>
+      <p class="max-w-4xl text-[12.5px] leading-relaxed text-stone-200">
+        Because Maisoun is admitted to four California federal district courts, we can also help
+        when a client is detained in a facility outside the Bay Area. That is common, since people
+        picked up in San Francisco are often held far from home.
+      </p>
+    </div>
+  </div>
+</section>

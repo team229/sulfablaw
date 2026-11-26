@@ -1,0 +1,92 @@
+---
+import { Image } from 'astro:assets';
+import Icon from './Icon.astro';
+import VideoCard from './VideoCard';
+import { firm } from '../data/site';
+import attorneyPortrait from '../assets/images/maisoun-sulfab.webp';
+---
+
+<section id="attorney" class="border-b border-stone-200 bg-stone-50 py-16 sm:py-24">
+  <div class="shell">
+    <div class="border border-stone-300 bg-white p-5 shadow-card sm:p-8 lg:p-10">
+      <div class="grid grid-cols-1 items-start gap-10 lg:grid-cols-12">
+        <div class="flex flex-col items-center lg:col-span-5">
+          <div class="w-full max-w-sm border-2 border-stone-300 bg-white shadow-xl">
+            <div class="relative h-80 overflow-hidden bg-slate-900 sm:h-96">
+              <!-- Photo of Maisoun Sulfab, sourced from the firm's website. -->
+              <Image
+                src={attorneyPortrait}
+                alt="Maisoun Sulfab, Attorney at Law"
+                widths={[420, 640, 840]}
+                sizes="(min-width: 1024px) 24rem, 90vw"
+                format="webp"
+                quality={84}
+                loading="lazy"
+                class="h-full w-full object-cover object-top"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-950 via-brand-950/35 to-transparent"></div>
+              <div class="absolute inset-x-0 bottom-0 p-4 text-center text-white">
+                <h3 class="text-xl font-semibold text-white drop-shadow">Maisoun Sulfab, Esq.</h3>
+                <p class="mt-0.5 text-[10px] font-semibold tracking-[0.16em] text-brand-100 uppercase">
+                  Founder &amp; Principal Attorney
+                </p>
+                <p class="mt-1 font-mono text-[10px] text-stone-300">California Bar #313318</p>
+              </div>
+            </div>
+            <div class="border-t-2 border-brand-800 bg-stone-50 p-4">
+              <h3 class="text-[10px] font-bold tracking-[0.14em] text-brand-800 uppercase">
+                Bar Admissions
+              </h3>
+              <ul class="mt-2.5 space-y-1.5 text-[10.5px] leading-snug text-slate-600">
+                {
+                  firm.admissions.map((admission) => (
+                    <li class="flex gap-2">
+                      <span class="mt-[7px] size-1 shrink-0 rounded-full bg-brand-800"></span>
+                      {admission}
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+
+          <div class="w-full max-w-sm">
+            <VideoCard client:visible />
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <span class="eyebrow">Principal Trial Counsel</span>
+          <h2 class="mt-2.5 text-[1.9rem] leading-[1.12] font-semibold sm:text-[2.35rem]">
+            Meet Attorney Maisoun Sulfab
+          </h2>
+          <span class="rule-accent" aria-hidden="true"></span>
+
+          <div class="mt-5 space-y-4 text-[13.5px] leading-[1.8] text-slate-700 sm:text-sm">
+            <p>
+              Maisoun Sulfab is a California attorney practicing immigration, personal injury and
+              intellectual property law. Before law, she built a career in the biotechnology and
+              pharmaceutical industries, and she still brings that habit of precision to legal work.
+              Facts get checked, records get read in full, and arguments are built from evidence.
+            </p>
+            <p>
+              She holds a Bachelor of Science from Marymount University in Arlington, Virginia, a
+              Master of Science from California State University, Sacramento, and a Juris Doctor
+              from San Francisco School of Law.
+            </p>
+          </div>
+
+          <div class="mt-7 flex flex-wrap items-center gap-5">
+            <a href="/about-us" class="btn-primary">
+              View Full Attorney Profile
+            </a>
+            <a href="/our-team" class="link-arrow">
+              <Icon name="users" class="size-4" />
+              Meet the full team
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

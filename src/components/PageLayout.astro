@@ -1,0 +1,345 @@
+---
+import { getImage } from 'astro:assets';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.tsx';
+import TrustStrip from './TrustStrip.astro';
+import Footer from './Footer.astro';
+import MobileCallBar from './MobileCallBar.tsx';
+import ConsultationForm from './ConsultationForm.tsx';
+import Icon from './Icon.astro';
+import { firm } from '../data/site';
+import practiceImage from '../assets/images/courthouse-columns.jpg';
+import locationImage from '../assets/images/sf-skyline.jpg';
+import firmImage from '../assets/images/sf-bridge.webp';
+
+interface Props {
+  page: CollectionEntry<'pages'>;
+  headings: { depth: number; slug: string; text: string }[];
+}
+
+const { page, headings } = Astro.props;
+const { data } = page;
+
+const imageMap = {
+  practice: practiceImage,
+  location: locationImage,
+  firm: firmImage,
+};
+
+const heroImage = await getImage({
+  src: imageMap[data.image],
+  width: 1600,
+  format: 'webp',
+  quality: 80,
+});
+
+const categoryMeta = {
+  practice: { label: 'Practice Areas', href: '/immigration-law-services' },
+  location: { label: 'Service Areas', href: '/service-areas' },
+  firm: { label: 'The Firm', href: '/about-us' },
+} as const;
+
+const category = categoryMeta[data.category];
+const pagePath = `/${page.id}`;
+const url = new URL(pagePath, Astro.site);
+const idPrefix = `page-${page.id.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}`;
+
+const allPages = await getCollection('pages');
+const related = allPages
+  .filter((entry) => entry.id !== page.id && entry.data.category === data.category)
+  .sort((a, b) => a.data.order - b.data.order)
+  .slice(0, 4);
+
+const toc = headings.filter((heading) => heading.depth === 2);
+
+const updated = data.updated
+  ? new Date(data.updated).toLocaleDateString('en-US', {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric',
+    })
+  : null;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: new URL('/', Astro.site).href,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: category.label,
+      item: new URL(category.href, Astro.site).href,
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: data.navLabel,
+      item: url.href,
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title={data.title}
+  description={data.description}
+  bottomBar
+  extraSchema={breadcrumbSchema}
+>
+  <SiteHeader client:load path={Astro.url.pathname} />
+
+  <main id="main">
+    <section class="relative overflow-hidden border-b-4 border-brand-800 bg-brand-950 text-white">
+      <img
+        src={heroImage.src}
+        alt=""
+        loading="eager"
+        fetchpriority="high"
+        class="absolute inset-0 h-full w-full object-cover object-center"
+        aria-hidden="true"
+      />
+      <div
+        class="absolute inset-0"
+        style="background: linear-gradient(100deg, #26040d 0%, rgba(38,4,13,0.96) 38%, rgba(38,4,13,0.82) 58%, rgba(30,41,59,0.45) 100%)"
+      >
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-t from-[#1b030a] via-transparent to-transparent opacity-90"></div>
+
+      <div class="shell relative z-10 grid grid-cols-1 items-start gap-10 py-10 lg:grid-cols-12 lg:items-center lg:gap-12 lg:py-16">
+        <div class="lg:col-span-7">
+          <nav aria-label="Breadcrumb" class="text-[10px] tracking-[0.1em] text-stone-400 uppercase">
+            <ol class="flex flex-wrap items-center gap-2">
+              <li><a href="/" class="transition hover:text-white">Home</a></li>
+              <li aria-hidden="true" class="text-brand-600">/</li>
+              <li>
+                <a href={category.href} class="transition hover:text-white">{category.label}</a>
+              </li>
+              {data.navLabel !== category.label &&
+                !['All Practice Areas', 'All Service Areas'].includes(data.navLabel) && (
+                <>
+                  <li aria-hidden="true" class="text-brand-600">/</li>
+                  <li aria-current="page" class="text-stone-200">{data.navLabel}</li>
+                </>
+              )}
+            </ol>
+          </nav>
+
+          <span class="mt-5 block text-[10px] font-semibold tracking-[0.2em] text-brand-200 uppercase">
+            {data.eyebrow}
+          </span>
+
+          <h1 class="mt-3 max-w-3xl text-[2rem] leading-[1.12] font-semibold tracking-[-0.015em] text-white text-shadow-soft sm:text-[2.5rem] lg:text-[2.75rem]">
+            {data.h1}
+          </h1>
+
+          <p class="mt-4 max-w-2xl text-[14px] leading-[1.75] font-light text-stone-200 sm:text-[15.5px]">
+            {data.lede}
+          </p>
+
+          <div class="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-[9.5px] tracking-[0.08em] text-stone-300 uppercase">
+            <span class="flex items-center gap-1.5"><Icon name="check" class="size-3.5 text-brand-300" /> California Bar #{firm.barNumber.replace('CA Bar #', '')}</span>
+            <span class="flex items-center gap-1.5"><Icon name="landmark" class="size-3.5 text-brand-300" /> Four federal districts</span>
+            <span class="flex items-center gap-1.5"><Icon name="clock" class="size-3.5 text-brand-300" /> Office hours: Mon–Fri, 9–5</span>
+          </div>
+
+          <div class="mt-7 flex flex-col gap-3 sm:flex-row">
+            <a href={`#${idPrefix}-consultation`} class="btn-primary w-full sm:w-auto">
+              Request a Free Consultation
+            </a>
+            <a href={firm.phoneHref} class="btn-secondary w-full sm:w-auto">
+              <Icon name="phone" class="size-4 text-brand-800" />
+              Call {firm.phoneDisplay}
+            </a>
+          </div>
+        </div>
+
+        <div class="flex w-full justify-center lg:col-span-5 lg:justify-end">
+          <div
+            id={`${idPrefix}-consultation`}
+            class="relative w-full max-w-md scroll-mt-28 border-x border-b border-stone-200 border-t-4 border-t-brand-800 bg-white p-5 text-slate-800 shadow-hero sm:p-6"
+          >
+            <ConsultationForm
+              client:load
+              variant="hero"
+              idPrefix={idPrefix}
+              defaultCaseType={data.caseType}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <TrustStrip />
+
+    <section class="bg-white py-14 sm:py-20">
+      <div class="shell grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-12">
+        <div class="lg:col-span-8">
+          <div class="mb-7 flex flex-wrap items-center gap-3 border-b border-stone-200 pb-4">
+            <span class="chip">{category.label.replace(/s$/, '')}</span>
+            {updated && <span class="text-[10px] tracking-[0.08em] text-slate-400 uppercase">Updated {updated}</span>}
+            <span class="ml-auto text-[10px] tracking-[0.08em] text-slate-400 uppercase">Attorney Advertising</span>
+          </div>
+
+          <article class="legal-prose" data-reveal>
+            <slot />
+          </article>
+
+          {
+            related.length > 0 && (
+              <div class="mt-12 border-t border-stone-200 pt-8">
+                <div class="flex items-end justify-between gap-4">
+                  <div>
+                    <span class="eyebrow">
+                      {data.category === 'practice'
+                        ? 'Related Practice Areas'
+                        : data.category === 'location'
+                          ? 'More Service Areas'
+                          : 'More About the Firm'}
+                    </span>
+                    <h2 class="mt-2 text-xl font-semibold">Keep exploring</h2>
+                  </div>
+                  <a
+                    href={
+                      data.category === 'practice'
+                        ? '/immigration-law-services'
+                        : data.category === 'location'
+                          ? '/service-areas'
+                          : '/about-us'
+                    }
+                    class="link-arrow hidden sm:inline-flex"
+                  >
+                    View all
+                    <Icon name="arrow-right" class="size-3.5" />
+                  </a>
+                </div>
+
+                <div class="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  {related.map((entry) => (
+                    <a
+                      href={`/${entry.id}`}
+                      class="group border border-stone-200 bg-stone-50 p-4 transition duration-300 hover:border-brand-800 hover:bg-white hover:shadow-card"
+                    >
+                      <span class="text-[9px] font-semibold tracking-[0.14em] text-brand-800 uppercase">
+                        {entry.data.eyebrow}
+                      </span>
+                      <span class="mt-1.5 block font-serif text-[15px] font-semibold text-slate-900 transition group-hover:text-brand-800">
+                        {entry.data.navLabel}
+                      </span>
+                      <span class="mt-1 line-clamp-2 block text-[11px] leading-relaxed text-slate-500">
+                        {entry.data.lede}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )
+          }
+        </div>
+
+        <aside class="lg:col-span-4">
+          <div class="space-y-5 lg:sticky lg:top-24 lg:max-h-[calc(100dvh-7rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-1">
+            {
+              toc.length > 2 && (
+                <nav
+                  aria-label="On this page"
+                  class="max-h-[calc(100vh-9rem)] overflow-y-auto border border-stone-200 bg-stone-50 p-5"
+                >
+                  <p class="eyebrow">On this page</p>
+                  <ol class="mt-3 space-y-2">
+                    {toc.map((heading, index) => (
+                      <li class="flex gap-2.5">
+                        <span class="mt-0.5 font-mono text-[9px] text-brand-800/60">
+                          {String(index + 1).padStart(2, '0')}
+                        </span>
+                        <a
+                          href={`#${heading.slug}`}
+                          class="text-[11.5px] leading-snug text-slate-600 transition hover:text-brand-800"
+                        >
+                          {heading.text}
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              )
+            }
+
+            <div class="border-t-2 border-brand-800 bg-stone-900 p-5 text-white shadow-float">
+              <span class="text-[10px] font-semibold tracking-[0.16em] text-brand-300 uppercase">
+                Free consultation
+              </span>
+              <h2 class="mt-2 text-xl leading-snug font-semibold text-white">
+                Speak with an immigration attorney
+              </h2>
+              <a
+                href={firm.phoneHref}
+                class="mt-3 block font-display text-lg font-bold tracking-wide text-white transition hover:text-brand-200"
+              >
+                {firm.phoneDisplay}
+              </a>
+              <p class="mt-3 border-t border-stone-700 pt-3 text-[11px] leading-relaxed text-stone-300">
+                {firm.address.street}
+                <br />
+                {firm.address.city}, {firm.address.state} {firm.address.zip}
+              </p>
+              <p class="mt-2 text-[10.5px] leading-relaxed text-stone-400">
+                {firm.hours}
+                <br />
+                {firm.hoursNote}
+              </p>
+              <a href="/contact-us" class="btn-primary mt-4 w-full text-[10px]">
+                Request a Consultation
+              </a>
+            </div>
+
+            <div class="border border-stone-200 bg-white p-5">
+              <p class="text-[10px] font-semibold tracking-[0.14em] text-brand-800 uppercase">
+                Detention emergency?
+              </p>
+              <p class="mt-2 text-[11.5px] leading-relaxed text-slate-600">
+                Do not wait for a court date. Call the office so we can locate the facility and
+                evaluate what relief may be available.
+              </p>
+              <a href={firm.phoneHref} class="link-arrow mt-3">
+                <Icon name="phone" class="size-3.5" />
+                Call now
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="border-t-4 border-brand-800 bg-brand-950 py-12 text-white sm:py-14">
+      <div class="shell flex flex-col items-start justify-between gap-7 md:flex-row md:items-center">
+        <div class="max-w-2xl">
+          <span class="eyebrow-light">Next step</span>
+          <h2 class="mt-2 text-2xl font-semibold text-white sm:text-[1.8rem]">
+            Talk through your options with an attorney
+          </h2>
+          <p class="mt-2 text-[12.5px] leading-relaxed text-stone-300">
+            Tell us what is happening. We will review the facts, explain the realistic paths
+            forward, and tell you plainly whether we can help.
+          </p>
+        </div>
+        <div class="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
+          <a href="/contact-us" class="btn-primary">Request a Consultation</a>
+          <a href={firm.phoneHref} class="btn-secondary">
+            <Icon name="phone" class="size-4 text-brand-800" />
+            {firm.phoneDisplay}
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+  <MobileCallBar client:idle />
+</BaseLayout>

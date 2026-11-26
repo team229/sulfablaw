@@ -5,21 +5,29 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check": "astro check",
+    "deploy": "npm run build && npx --yes wrangler pages deploy dist --project-name=sulfab-law-office --branch=main --force"
   },
   "dependencies": {
-    "@astrojs/react": "^4.2.0",
-    "@astrojs/sitemap": "^3.2.1",
-    "@tailwindcss/vite": "^4.3.3",
-    "astro": "^5.5.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "sharp": "^0.34.5",
-    "tailwindcss": "^4.3.3"
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/sitemap": "^3.7.6",
+    "@fontsource-variable/eb-garamond": "^5.2.8",
+    "@fontsource-variable/manrope": "^5.2.8",
+    "@fontsource/cinzel": "^5.2.8",
+    "astro": "^5.16.2",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0"
+    "@astrojs/check": "^0.9.12",
+    "@tailwindcss/vite": "^4.1.17",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
   }
 }

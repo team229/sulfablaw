@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Footer from '../components/Footer.astro';
+import Icon from '../components/Icon.astro';
+import { firm } from '../data/site';
+import logo from '../assets/images/logo.jpg';
+---
+
+<BaseLayout
+  title="Page not found | Sulfab Law Office P.C."
+  description="The page you are looking for could not be found. Return to Sulfab Law Office or call (415) 360-5266."
+>
+  <header class="border-b-2 border-brand-800 bg-white">
+    <div class="shell flex h-20 items-center justify-between gap-4">
+      <a href="/" class="group flex items-center gap-3" aria-label={`${firm.name} — home`}>
+        <span class="flex size-11 shrink-0 items-center justify-center border border-stone-300 bg-white p-1 shadow-sm transition group-hover:border-brand-800">
+          <img src={logo.src} alt="Sulfab Law Office emblem" width={44} height={35} class="h-9 w-auto object-contain" />
+        </span>
+        <span>
+          <span class="block font-display text-[13px] leading-none font-bold tracking-[0.12em] whitespace-nowrap text-slate-900 uppercase sm:text-base">
+            Sulfab Law Office <span class="text-brand-800">P.C.</span>
+          </span>
+          <span class="mt-1.5 block text-[7px] font-semibold tracking-[0.12em] whitespace-nowrap text-brand-800 uppercase sm:text-[8.5px]">
+            Immigration &amp; Federal Litigation · Trial Advocates
+          </span>
+        </span>
+      </a>
+      <a href="/" class="link-arrow">
+        Back to homepage
+        <Icon name="arrow-right" class="size-3.5" />
+      </a>
+    </div>
+  </header>
+
+  <main id="main" class="relative overflow-hidden bg-brand-950 py-20 text-white sm:py-28">
+    <div class="pointer-events-none absolute -top-40 right-0 size-[30rem] rounded-full bg-brand-700/20 blur-3xl" aria-hidden="true"></div>
+    <div class="pointer-events-none absolute -bottom-40 left-0 size-[24rem] rounded-full bg-brand-800/20 blur-3xl" aria-hidden="true"></div>
+
+    <div class="shell relative">
+      <div class="mx-auto max-w-2xl text-center">
+        <span class="eyebrow-light">Error 404</span>
+        <p class="mt-4 font-display text-[5.5rem] leading-none font-bold tracking-[0.08em] text-brand-700/70 select-none sm:text-[7rem]" aria-hidden="true">
+          404
+        </p>
+        <h1 class="mt-2 text-3xl font-semibold text-white sm:text-[2.5rem]">
+          This page is not on the docket.
+        </h1>
+        <span class="mx-auto mt-4 block h-0.5 w-16 bg-brand-400" aria-hidden="true"></span>
+        <p class="mx-auto mt-4 max-w-md text-[13.5px] leading-relaxed text-stone-300">
+          The page you are looking for may have moved, or the address may be incomplete. Our
+          practice information, federal dockets, and consultation request are all available from
+          the homepage.
+        </p>
+
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="/" class="btn-primary">Return to the homepage</a>
+          <a href="/#contact" class="btn-secondary">Request a consultation</a>
+        </div>
+
+        <p class="mt-7 text-[11.5px] text-stone-300">
+          Need to speak with someone now?{' '}
+          <a href={firm.phoneHref} class="font-semibold text-brand-200 underline decoration-brand-700 underline-offset-4 transition hover:text-white">
+            Call {firm.phoneDisplay}
+          </a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

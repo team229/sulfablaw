@@ -1,56 +1,46 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import HeroSection from '../components/HeroSection';
-import WelcomeSection from '../components/WelcomeSection';
-import PracticeAreasSection from '../components/PracticeAreasSection';
-import ExpertiseSection from '../components/ExpertiseSection';
-import InjuryServicesSection from '../components/InjuryServicesSection';
-import CaseInquiryForm from '../components/CaseInquiryForm';
-
-import CTASection from '../components/CTASection';
+import SiteHeader from '../components/SiteHeader.tsx';
+import Hero from '../components/Hero.astro';
+import TrustStrip from '../components/TrustStrip.astro';
+import About from '../components/About.astro';
+import PracticeAreas from '../components/PracticeAreas.astro';
+import Results from '../components/Results.astro';
+import Attorney from '../components/Attorney.astro';
+import WhyChoose from '../components/WhyChoose.astro';
+import Process from '../components/Process.astro';
+import Testimonials from '../components/Testimonials.astro';
+import Locations from '../components/Locations.astro';
+import Faq from '../components/Faq.astro';
+import Contact from '../components/Contact.astro';
+import Understanding from '../components/Understanding.astro';
+import Footer from '../components/Footer.astro';
+import MobileCallBar from '../components/MobileCallBar.tsx';
 ---
 
 <BaseLayout
-  title="San Francisco Immigration, Intellectual Property & Personal Injury Law Firm"
-  description="Sulfab Law Office is an immigration, intellectual property, and personal injury law firm in San Francisco. Get expert legal support. Call (415) 360-5266 today."
+  title="Immigration Lawyer San Francisco | Sulfab Law Office"
+  description="Immigration attorney Maisoun Sulfab handles asylum, removal defense, detention and federal habeas cases across San Francisco and the Bay Area. Book a free consultation."
+  bottomBar
 >
-  <HeroSection />
-  <WelcomeSection />
-  <PracticeAreasSection />
-  <InjuryServicesSection />
-  <ExpertiseSection />
-  <section class="py-16 md:py-20 bg-white border-t border-slate-100">
-    <div class="max-w-4xl mx-auto px-6 lg:px-16">
-      <div class="text-center mb-10">
-        <span class="inline-flex items-center gap-2 text-gold text-[10px] font-black uppercase tracking-[0.4em] mb-6">FAQ</span>
-        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-6 italic font-serif">Frequently Asked Questions</h2>
-      </div>
-      <div class="space-y-4">
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <h3 class="font-bold text-dark mb-2">What kinds of cases does The Sulfab Law Office handle?</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">The Sulfab Law Office deals with immigration law, intellectual property, and personal injury. These include asylum cases, removal defense, trademark and licensing, family-based immigration, auto accidents, truck accidents, motorcycle accidents, pedestrian accidents, slip-and-fall and wrongful death.</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <h3 class="font-bold text-dark mb-2">When should I contact a personal injury lawyer after an accident?</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">Getting a lawyer involved in your situation soon after the accident is a good idea. Getting legal advice early can help you understand your rights, protect important evidence and learn about your options for getting compensation.</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <h3 class="font-bold text-dark mb-2">Can you help with a complex immigration case?</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">Yes. Our firm also deals with complicated immigration cases such as asylum, removal defense, federal litigation, family immigration, and investment/business visas. Our lawyer can evaluate your case and discuss the legal options that you have.</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <h3 class="font-bold text-dark mb-2">How can an attorney help protect my intellectual property?</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">A lawyer can help you learn how to protect your brand, creative work and business concepts. Legal services include trademark protection, copyright issues, licensing and other intellectual property needs.</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <h3 class="font-bold text-dark mb-2">What steps should I take following an accident?</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">After the accident you should seek medical attention and inform the appropriate people about the accident. Photos and documents must be taken and witness statements obtained. It would be best if you consult an attorney before accepting any kind of settlement.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact">
-    <CaseInquiryForm client:load />
-  </section>
-  <CTASection />
+  <SiteHeader client:load path={Astro.url.pathname} />
+
+  <main id="main">
+    <Hero />
+    <TrustStrip />
+    <About />
+    <PracticeAreas />
+    <Results />
+    <Attorney />
+    <WhyChoose />
+    <Process />
+    <Testimonials />
+    <Locations />
+    <Faq />
+    <Contact />
+    <Understanding />
+  </main>
+
+  <Footer />
+  <MobileCallBar client:idle />
 </BaseLayout>

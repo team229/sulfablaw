@@ -1,0 +1,178 @@
+---
+import LegalLayout from '../components/LegalLayout.astro';
+import { firm } from '../data/site';
+
+const toc = [
+  { text: 'Acceptance of these terms', slug: 'acceptance-of-these-terms' },
+  { text: 'No attorney-client relationship', slug: 'no-attorney-client-relationship' },
+  { text: 'Information is not legal advice', slug: 'information-is-not-legal-advice' },
+  { text: 'Communications and confidentiality', slug: 'communications-and-confidentiality' },
+  { text: 'Deadlines and time-sensitive matters', slug: 'deadlines-and-time-sensitive-matters' },
+  { text: 'Acceptable use', slug: 'acceptable-use' },
+  { text: 'Intellectual property', slug: 'intellectual-property' },
+  { text: 'Third-party links and resources', slug: 'third-party-links-and-resources' },
+  { text: 'Disclaimer of warranties', slug: 'disclaimer-of-warranties' },
+  { text: 'Limitation of liability', slug: 'limitation-of-liability' },
+  { text: 'Indemnification', slug: 'indemnification' },
+  { text: 'Governing law', slug: 'governing-law' },
+  { text: 'Changes and severability', slug: 'changes-and-severability' },
+  { text: 'Contact', slug: 'contact' },
+];
+---
+
+<LegalLayout
+  title="Terms of Service | Sulfab Law Office P.C."
+  description="The terms that govern use of the Sulfab Law Office P.C. website, including the limits of the information published and the rules for contacting the firm."
+  h1="Terms of Service"
+  eyebrow="Website Terms"
+  lede="The rules that apply when you use this website, and the limits of the information published here."
+  updated="2026-11-21"
+  toc={toc}
+>
+  <p>
+    These Terms of Service (“terms”) govern your use of the website at
+    <a href="https://www.sulfablaw.com">sulfablaw.com</a>, operated by Sulfab Law Office P.C.
+    (“the firm,” “we,” “us”). By using the website, you agree to these terms. If you do not agree,
+    please do not use the site.
+  </p>
+
+  <h2 id="acceptance-of-these-terms">Acceptance of these terms</h2>
+  <p>
+    Your use of the website, including browsing, submitting a form, or calling a number listed here,
+    is subject to these terms and to our <a href="/privacy-policy">Privacy Policy</a> and
+    <a href="/disclaimer">Disclaimer</a>, which are incorporated by reference.
+  </p>
+
+  <h2 id="no-attorney-client-relationship">No attorney-client relationship</h2>
+  <p>
+    <strong>
+      Contacting the firm through this website does not create an attorney-client relationship, and
+      does not make the firm your lawyer.
+    </strong>
+    An attorney-client relationship begins only when the firm and the client sign a written
+    engagement agreement and any required retainer is paid. Until then, the firm has not agreed to
+    represent you, has not agreed to take any action on your behalf, and may represent another party
+    whose interests are adverse to yours.
+  </p>
+  <p>
+    We review inquiries for conflicts of interest before accepting a matter. Please do not assume a
+    matter has been accepted because you submitted a form, left a voicemail, or received a reply
+    acknowledging your message.
+  </p>
+
+  <h2 id="information-is-not-legal-advice">Information is not legal advice</h2>
+  <p>
+    The articles, practice-area pages, service-area pages, FAQs, and other content on this website
+    are general information for educational purposes. They are not legal advice, and they are not a
+    substitute for a consultation with an attorney who has reviewed your facts. Immigration law
+    changes frequently, and an answer that fits one person’s situation may be wrong for another.
+  </p>
+  <p>
+    Reading this website does not make you a client, and relying on it instead of seeking advice can
+    cause you to miss deadlines or lose options. If you have a pending case, a hearing date, or a
+    notice from the government, speak with an attorney promptly.
+  </p>
+
+  <h2 id="communications-and-confidentiality">Communications and confidentiality</h2>
+  <p>
+    Information you send before an engagement is not protected by the attorney-client privilege in
+    the same way as information shared after the firm is retained. Please do not send confidential
+    case documents, identification numbers, or sensitive personal records through the website’s
+    general forms. If the firm agrees to review documents, we will tell you how to send them
+    securely.
+  </p>
+  <p>
+    Email and web-form messages can be delayed, misdirected, or intercepted. Sending a message does
+    not guarantee that the firm has received it or that a deadline has been preserved.
+  </p>
+
+  <h2 id="deadlines-and-time-sensitive-matters">Deadlines and time-sensitive matters</h2>
+  <p>
+    Immigration matters often involve strict deadlines: the one-year asylum filing deadline,
+    deadlines to appeal or move to reopen, bond and custody timelines, and court-ordered response
+    dates. Nothing on this website extends a deadline. If you are in immigration detention or have a
+    hearing or filing deadline approaching, call the firm directly at
+    <a href={firm.phoneHref}>{firm.phoneDisplay}</a> rather than relying on a web form.
+  </p>
+
+  <h2 id="acceptable-use">Acceptable use</h2>
+  <p>You agree not to use this website to:</p>
+  <ul>
+    <li>Violate any law or the rights of another person.</li>
+    <li>Submit false, misleading, or impersonating information.</li>
+    <li>Send spam, bulk solicitations, or automated queries.</li>
+    <li>Attempt to gain unauthorized access to the site, its servers, or its data.</li>
+    <li>Introduce malware or interfere with the site’s operation.</li>
+    <li>Scrape, copy, or republish substantial portions of the content without permission.</li>
+  </ul>
+
+  <h2 id="intellectual-property">Intellectual property</h2>
+  <p>
+    The text, design, graphics, layout, and other content on this website are owned by the firm or
+    used under license and are protected by copyright and other laws. You may view, download, and
+    print pages for your own personal, non-commercial use. Any other use — including reproduction,
+    distribution, modification, or creation of derivative works — requires written permission.
+  </p>
+  <p>
+    “Sulfab Law Office” and the firm’s emblem are identifiers of the firm and may not be used in a
+    way that suggests endorsement or affiliation without permission.
+  </p>
+
+  <h2 id="third-party-links-and-resources">Third-party links and resources</h2>
+  <p>
+    This website links to courts, government agencies, review profiles, map services, and other
+    third-party sites. Those sites are not controlled by the firm, and we are not responsible for
+    their content, accuracy, or privacy practices. A link is not an endorsement, and third-party
+    information should be verified with the source.
+  </p>
+
+  <h2 id="disclaimer-of-warranties">Disclaimer of warranties</h2>
+  <p>
+    This website and its content are provided “as is” and “as available.” To the fullest extent
+    permitted by law, the firm disclaims all warranties, express or implied, including warranties of
+    accuracy, completeness, merchantability, fitness for a particular purpose, and
+    non-infringement. We do not warrant that the site will be uninterrupted, error-free, or free of
+    harmful components, or that the information is current as of the moment you read it.
+  </p>
+
+  <h2 id="limitation-of-liability">Limitation of liability</h2>
+  <p>
+    To the fullest extent permitted by law, the firm and its attorneys and staff will not be liable
+    for any indirect, incidental, special, consequential, or punitive damages arising from your use
+    of, or inability to use, this website or its content. This includes lost opportunities, missed
+    deadlines, or reliance on information published here. Nothing in these terms limits liability
+    that cannot be limited under applicable law or the rules of professional conduct.
+  </p>
+
+  <h2 id="indemnification">Indemnification</h2>
+  <p>
+    You agree to indemnify and hold harmless the firm and its attorneys and staff from claims,
+    losses, or expenses, including reasonable attorneys’ fees, arising from your violation of these
+    terms or your misuse of the website.
+  </p>
+
+  <h2 id="governing-law">Governing law</h2>
+  <p>
+    These terms are governed by the laws of the State of California, without regard to conflict of
+    law principles. Any dispute relating to the website or these terms will be brought in the state
+    or federal courts located in San Francisco County, California, and you consent to their
+    jurisdiction.
+  </p>
+
+  <h2 id="changes-and-severability">Changes and severability</h2>
+  <p>
+    We may revise these terms at any time by posting an updated version on this page. The “last
+    updated” date shows the current version. Continued use of the website after a change means you
+    accept the revised terms. If any provision is found unenforceable, the remaining provisions stay
+    in effect.
+  </p>
+
+  <h2 id="contact">Contact</h2>
+  <p>Questions about these terms can be sent to:</p>
+  <ul>
+    <li><strong>Sulfab Law Office P.C.</strong></li>
+    <li>{firm.address.street}, {firm.address.city}, {firm.address.state} {firm.address.zip}</li>
+    <li>Email: <a href={firm.emailHref}>{firm.email}</a></li>
+    <li>Telephone: <a href={firm.phoneHref}>{firm.phoneDisplay}</a></li>
+  </ul>
+</LegalLayout>

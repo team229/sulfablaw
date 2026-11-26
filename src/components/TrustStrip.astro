@@ -1,0 +1,17 @@
+---
+import Icon from './Icon.astro';
+import { trustPoints } from '../data/site';
+---
+
+<div class="border-y border-brand-950 bg-brand-900">
+  <div class="shell flex flex-wrap items-center justify-center gap-x-8 gap-y-3 py-4 lg:justify-between">
+    {
+      trustPoints.map((point) => (
+        <span class="flex items-center gap-2 text-[9.5px] font-semibold tracking-[0.13em] text-stone-100 uppercase sm:text-[10.5px]">
+          <Icon name="check" class="size-3.5 shrink-0 text-brand-300" />
+          {point}
+        </span>
+      ))
+    }
+  </div>
+</div>

@@ -1,84 +1,223 @@
 ---
-import { Image } from 'astro:assets';
-import logo from '../assets/images/sulfab-law-logo.jpg';
-const year = new Date().getFullYear();
+import Icon from './Icon.astro';
+import {
+  firm,
+  locationLinks,
+  practiceLinks,
+  profileLinks,
+} from '../data/site';
+import logo from '../assets/images/logo.jpg';
+
+const firmLinks = [
+  { label: 'About the Firm', href: '/about-us' },
+  { label: 'Our Team', href: '/our-team' },
+  { label: 'Client Resources', href: '/resources' },
+  { label: 'Contact Us', href: '/contact-us' },
+  { label: 'Court Victories', href: '/#results' },
+  { label: 'FAQs', href: '/#faq' },
+  { label: 'Reviews & Profiles', href: '/#testimonials' },
+];
 ---
 
-<footer class="bg-onyx text-slate-400 text-sm border-t border-slate-800">
-  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 lg:gap-8">
-      <div class="lg:col-span-4">
-        <a href="/" class="inline-block mb-6">
-          <Image src={logo} alt="Sulfab Law Office Logo" class="h-14 w-auto" />
+<footer class="border-t-2 border-brand-800 bg-brand-950 font-sans text-[12px] text-stone-300">
+  <div class="shell py-12">
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-12 lg:gap-8">
+      <div class="md:col-span-2 lg:col-span-3">
+        <a href="/" class="flex items-center gap-3">
+          <span class="flex size-12 shrink-0 items-center justify-center border border-stone-300 bg-white p-1 shadow-sm">
+            <img src={logo.src} alt="Sulfab Law Office emblem" width={48} height={38} class="h-10 w-auto object-contain" loading="lazy" />
+          </span>
+          <span>
+            <span class="block font-display text-base leading-tight font-bold tracking-[0.14em] text-white uppercase">
+              Sulfab Law Office P.C.
+            </span>
+            <span class="mt-1 block text-[9px] font-medium tracking-[0.14em] text-stone-400 uppercase">
+              Immigration &amp; Federal Litigation
+            </span>
+          </span>
         </a>
-        <p class="leading-relaxed">
-          The Sulfab Law Office is a trusted San Francisco law firm providing experienced legal representation in Immigration Law, Intellectual Property Law, Personal Injury Law, and Workers' Compensation. Our attorneys help individuals, families, entrepreneurs, and businesses navigate complex legal matters with personalized strategies, transparent communication, and results-driven advocacy. Whether you need assistance with asylum, family-based immigration, trademarks, copyright protection, accident claims, workplace injuries, or federal litigation, Sulfab Law is committed to protecting your rights and achieving the best possible outcome.
-          Known for transparency and high-competency advocacy.
+
+        <p class="mt-4 max-w-sm text-[11.5px] leading-relaxed text-stone-300">
+          Sulfab Law Office P.C. represents clients in immigration court, federal district court,
+          and appellate tribunals throughout San Francisco and California. Headquartered in San
+          Francisco’s Financial District.
         </p>
+
+        <div class="mt-4 space-y-1 text-[10.5px] leading-relaxed text-stone-300">
+          <span class="block">State Bar of California License #313318</span>
+          <span class="block">Admitted: N.D. Cal. · E.D. Cal. · C.D. Cal. · S.D. Cal.</span>
+          <span class="block">USPTO Registered Patent Practice</span>
+          <span class="block text-stone-400">Hablamos Español</span>
+        </div>
       </div>
 
       <div class="lg:col-span-3">
-        <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-6">Practice Areas</h4>
-        <ul class="space-y-3">
-          <li><a href="/immigration-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300">Immigration</a></li>
-          <li><a href="/intellectual-property-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300">Intellectual Property</a></li>
-          <li>
-            <a href="/personal-injury-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300">Personal Injury</a>
-            <ul class="mt-2 space-y-2 pl-3 border-l border-slate-700">
-              <li><a href="/car-accidents-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Car Accidents</a></li>
-              <li><a href="/motorcycle-accidents-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Motorcycle Accidents</a></li>
-              <li><a href="/truck-accidents-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Truck Accidents</a></li>
-              <li><a href="/pedestrian-injuries-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Pedestrian Injuries</a></li>
-              <li><a href="/slip-and-fall-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Slip and Fall</a></li>
-              <li><a href="/wrongful-death-lawyer-san-francisco/" class="hover:text-gold transition-colors duration-300 text-slate-500">Wrongful Death</a></li>
-            </ul>
+        <h2 class="border-b border-brand-800 pb-1.5 font-display text-[10px] font-bold tracking-[0.14em] text-white uppercase">
+          Practice Areas
+        </h2>
+        <ul class="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 text-[11px]">
+          <li class="col-span-2">
+            <a href="/immigration-law-services" class="font-semibold text-stone-200 transition hover:text-white">
+              All Immigration Services
+            </a>
           </li>
+          {
+            practiceLinks.map((link) => (
+              <li>
+                <a href={link.href} class="transition hover:text-white">{link.label}</a>
+              </li>
+            ))
+          }
         </ul>
       </div>
 
       <div class="lg:col-span-2">
-        <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-6">The Firm</h4>
-        <ul class="space-y-3">
-          <li><a href="/meet-our-team/" class="hover:text-gold transition-colors duration-300">Our Team</a></li>
-          <li><a href="/blog/" class="hover:text-gold transition-colors duration-300">Insights</a></li>
-          <li><a href="/#contact" class="hover:text-gold transition-colors duration-300">Case Intake</a></li>
-          <li><a href="/contact/" class="hover:text-gold transition-colors duration-300">SF Office</a></li>
+        <h2 class="border-b border-brand-800 pb-1.5 font-display text-[10px] font-bold tracking-[0.14em] text-white uppercase">
+          Service Areas
+        </h2>
+        <ul class="mt-3 space-y-2 text-[11px]">
+          <li>
+            <a href="/service-areas" class="font-semibold text-stone-200 transition hover:text-white">
+              All Service Areas
+            </a>
+          </li>
+          {
+            locationLinks.map((link) => (
+              <li>
+                <a href={link.href} class="transition hover:text-white">{link.label}</a>
+              </li>
+            ))
+          }
         </ul>
       </div>
 
-      <div class="lg:col-span-3">
-        <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-6">Headquarters</h4>
-        <div class="space-y-4">
-          <p class="leading-relaxed">
-            369 Pine St, Suite 600<br />
-            San Francisco, CA 94104, USA
+      <div class="lg:col-span-2">
+        <h2 class="border-b border-brand-800 pb-1.5 font-display text-[10px] font-bold tracking-[0.14em] text-white uppercase">
+          The Firm
+        </h2>
+        <ul class="mt-3 space-y-2 text-[11px]">
+          {
+            firmLinks.map((link) => (
+              <li>
+                <a href={link.href} class="transition hover:text-white">
+                  {link.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div class="lg:col-span-2">
+        <h2 class="border-b border-brand-800 pb-1.5 font-display text-[10px] font-bold tracking-[0.14em] text-white uppercase">
+          Contact
+        </h2>
+        <div class="mt-3 space-y-2 text-[11px]">
+          <p class="font-medium text-white">
+            300 Montgomery St, Suite 850<br />
+            San Francisco, CA 94104
           </p>
-          <div class="space-y-2">
-            <p class="flex items-start gap-2">
-              <i data-lucide="phone" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
-              <a href="tel:+14153605266" class="hover:text-gold transition-colors duration-300">(415) 360-5266</a>
-            </p>
-            <p class="flex items-start gap-2">
-              <i data-lucide="mail" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
-              <a href="mailto:sulfab@sulfablaw.com" class="hover:text-gold transition-colors duration-300">sulfab@sulfablaw.com</a>
-            </p>
-            <p class="flex items-start gap-2">
-              <i data-lucide="clock" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
-              <span>Mon - Fri: 9:00 AM - 5:00 PM</span>
-            </p>
-          </div>
+          <p>
+            <a href={firm.phoneHref} class="text-sm font-bold text-white transition hover:underline">
+              {firm.phoneDisplay}
+            </a>
+          </p>
+          <p><a href={firm.emailHref} class="break-all transition hover:text-white hover:underline">{firm.email}</a></p>
+          <p class="text-[10px] text-stone-400">Mon–Fri, 9:00 AM–5:00 PM<br />Call the office for urgent matters</p>
+          <a href="/contact-us" class="link-arrow mt-1 text-brand-300 hover:text-white">
+            Free consultation
+            <Icon name="arrow-right" class="size-3" />
+          </a>
         </div>
+      </div>
+    </div>
+
+    <div class="mt-10 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-brand-900 pt-5 text-[10px]">
+      <span class="mr-1 tracking-[0.1em] text-stone-400 uppercase">Verify the firm:</span>
+      {
+        profileLinks.map((profile, index) => (
+          <>
+            {index > 0 && <span class="text-brand-800" aria-hidden="true">•</span>}
+            <a
+              href={profile.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-stone-300 transition hover:text-white hover:underline"
+            >
+              {profile.label}
+            </a>
+          </>
+        ))
+      }
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 overflow-hidden border border-brand-800 md:grid-cols-5">
+      <div class="p-5 md:col-span-2">
+        <h2 class="font-display text-[10px] font-bold tracking-[0.14em] text-white uppercase">
+          Visit the Office
+        </h2>
+        <address class="mt-3 text-[11.5px] leading-relaxed text-stone-300 not-italic">
+          {firm.address.street}<br />
+          {firm.address.city}, {firm.address.state} {firm.address.zip}<br />
+          {firm.address.area}
+        </address>
+        <p class="mt-2 text-[10.5px] text-stone-400">
+          {firm.hours}<br />
+          {firm.hoursNote}
+        </p>
+        <a
+          href="https://maps.google.com/?q=300+Montgomery+Street+Suite+850+San+Francisco+CA+94104"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="link-arrow mt-3 text-brand-300 hover:text-white"
+        >
+          Get directions
+          <Icon name="arrow-right" class="size-3" />
+        </a>
+      </div>
+      <div class="min-h-[220px] md:col-span-3">
+        <iframe
+          title="Google Map to Sulfab Law Office, 300 Montgomery Street, Suite 850, San Francisco"
+          src="https://maps.google.com/maps?q=300%20Montgomery%20Street%2C%20Suite%20850%2C%20San%20Francisco%2C%20CA%2094104&hl=en&z=16&output=embed"
+          width="100%"
+          height="100%"
+          style="border:0; min-height:220px; display:block;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   </div>
 
-  <div class="border-t border-slate-800">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-6">
-      <p class="mb-3">&copy; {year} Sulfab Law Office. All Rights Reserved.</p>
-      <p class="text-xs leading-relaxed opacity-70">
-        Disclaimer: The information provided on this website is for general informational purposes only and does not constitute legal advice. Accessing or using this website does not create an attorney-client relationship between you and Sulfab Law Office. Prior results do not guarantee a similar outcome.
-      </p>
+  <div class="border-t border-brand-900 bg-black/40 px-5 py-6">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-center text-[10.5px] md:flex-row md:text-left">
+      <div class="space-y-1">
+        <p>© 2026 Sulfab Law Office P.C. All Rights Reserved. Attorney Advertising.</p>
+        <p class="mx-auto max-w-4xl text-[10px] leading-relaxed text-stone-400 md:mx-0">
+          The information presented on this website is for general educational purposes only and
+          does not constitute formal legal advice. No attorney-client relationship is formed until a
+          written retainer agreement is executed. Prior results do not guarantee similar outcomes.
+        </p>
+      </div>
+      <div class="flex shrink-0 flex-wrap items-center justify-center gap-3 text-[10.5px] text-stone-300">
+        <a href="/contact-us" class="transition hover:text-white hover:underline">Client Portal</a>
+        <span class="text-brand-800">•</span>
+        <a href="/privacy-policy" class="transition hover:text-white hover:underline">Privacy Policy</a>
+        <span class="text-brand-800">•</span>
+        <a href="/terms-of-service" class="transition hover:text-white hover:underline">Terms of Service</a>
+        <span class="text-brand-800">•</span>
+        <a href="/disclaimer" class="transition hover:text-white hover:underline">Disclaimer</a>
+        <a
+          href="#top"
+          class="ml-2 flex size-7 items-center justify-center border border-brand-800 text-stone-300 transition hover:border-brand-500 hover:text-white"
+          aria-label="Back to top"
+        >
+          <svg viewBox="0 0 24 24" class="size-3.5" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M12 19V5" /><path d="m5 12 7-7 7 7" />
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
 </footer>
-

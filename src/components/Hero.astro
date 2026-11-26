@@ -1,0 +1,67 @@
+---
+import Icon from './Icon.astro';
+import ConsultationForm from './ConsultationForm';
+import { firm } from '../data/site';
+import heroImage from '../assets/images/sf-bridge.webp';
+---
+
+<section
+  id="top"
+  class="relative flex min-h-[640px] items-center overflow-hidden border-b-4 border-brand-800 bg-stone-900 text-white lg:min-h-[730px]"
+>
+  <div class="absolute inset-0" aria-hidden="true">
+    <img
+      src={heroImage.src}
+      alt=""
+      width={1376}
+      height={768}
+      loading="eager"
+      fetchpriority="high"
+      class="h-full w-full object-cover object-center"
+    />
+    <div
+      class="absolute inset-0"
+      style="background: linear-gradient(90deg, #2a050f 0%, rgba(42,5,15,0.95) 34%, rgba(42,5,15,0.78) 55%, rgba(30,41,59,0.35) 100%)"
+    ></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-[#1b030a] via-transparent to-transparent opacity-90"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_70%_20%,rgba(255,157,176,0.12),transparent_55%)]"></div>
+  </div>
+
+  <div class="shell relative z-10 w-full py-14 lg:py-20">
+    <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-12">
+      <div class="lg:col-span-7">
+        <h1
+          class="max-w-4xl text-[1.95rem] leading-[1.12] font-semibold tracking-[-0.015em] text-white text-shadow-soft sm:text-[2.7rem] lg:text-[3.05rem]"
+        >
+          Immigration Lawyer in San Francisco for Asylum, Removal Defense and Detention Cases
+        </h1>
+
+        <p class="mt-5 max-w-2xl text-[15px] leading-[1.75] font-light text-stone-200 sm:text-[17px]">
+          Sulfab Law Office represents individuals and families in immigration court and federal
+          court throughout San Francisco, Oakland, Daly City and the greater Bay Area.
+        </p>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <a href="#contact" class="btn-primary w-full sm:w-auto">
+            Schedule a Free Consultation
+          </a>
+          <a href={firm.phoneHref} class="btn-secondary w-full sm:w-auto">
+            <Icon name="phone" class="size-4 text-brand-800" />
+            Call {firm.phoneDisplay}
+          </a>
+        </div>
+      </div>
+
+      <div class="flex w-full justify-center lg:col-span-5 lg:justify-end">
+        <div class="relative w-full max-w-md border-x border-b border-stone-200 border-t-4 border-t-brand-800 bg-white p-5 text-slate-800 shadow-hero sm:p-6">
+          <span
+            class="absolute -top-3 right-5 bg-brand-800 px-2.5 py-1 font-mono text-[9px] tracking-[0.12em] text-white uppercase shadow"
+          >
+            Confidential intake
+          </span>
+          <ConsultationForm client:load variant="hero" idPrefix="hero" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
